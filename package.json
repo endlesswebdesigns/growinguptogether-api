@@ -1,0 +1,15 @@
+{
+  "name": "growinguptogether-ai",
+  "version": "1.0.0",
+  "description": "GrowingUpTogether.ai — Landing page with Family GPT powered by Claude",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Rod Wilson, Ph.D.",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "nodemailer": "^6.9.0"
+  }
+}
