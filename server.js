@@ -625,7 +625,7 @@ const server = http.createServer((req, res) => {
   }
 
   // ── Static files ──
-  let filePath = pathname === '/' ? '/growinguptogether-landing.html' : pathname;
+  let filePath = pathname === '/' ? '/index.html' : pathname;
   filePath = path.join(__dirname, filePath);
   if (!filePath.startsWith(__dirname)) { res.writeHead(403); res.end('Forbidden'); return; }
   serveStatic(filePath, res);
