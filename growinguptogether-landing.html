@@ -1,0 +1,2408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Growing Up Together — How Families Can Stay Connected in a World of Screens, Social Media, and AI</title>
+<meta name="description" content="A jury satisfying verdict on social media's harm to children was only the beginning. Growing Up Together is a book, a movement, and a set of tools for families ready to rebuild the conversation — starting tonight, at your table.">
+<meta name="author" content="Dr. Rod Wilson">
+<meta name="keywords" content="growing up together, family conversation, social media harm children, digital wellness, parenting, screen time, Make the Moments Matter, Family GPT">
+
+<!-- Open Graph (Facebook, LinkedIn, iMessage, etc.) -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://growinguptogether.ai">
+<meta property="og:title" content="Growing Up Together — The Conversation Starts Here">
+<meta property="og:description" content="A book, a card deck, and a movement for families ready to stop reacting to technology and start rebuilding real connection.">
+<meta property="og:image" content="https://growinguptogether.ai/beyond-the-verdict-graphic.png">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Growing Up Together — The Conversation Starts Here">
+<meta name="twitter:description" content="A book, a card deck, and a movement for families ready to stop reacting to technology and start rebuilding real connection.">
+<meta name="twitter:image" content="https://growinguptogether.ai/beyond-the-verdict-graphic.png">
+
+<link rel="canonical" href="https://growinguptogether.ai">
+
+<!-- Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Book",
+  "name": "Growing Up Together: How Families Can Stay Connected in a World of Screens, Social Media, and AI",
+  "author": {
+    "@type": "Person",
+    "name": "Rod Wilson",
+    "honorificSuffix": "Ph.D.",
+    "jobTitle": "Communications Specialist",
+    "url": "https://growinguptogether.ai"
+  },
+  "description": "A book, a card deck, and a movement for families ready to stop reacting to technology and start rebuilding real connection.",
+  "url": "https://growinguptogether.ai",
+  "bookFormat": "EBook",
+  "publisher": {
+    "@type": "Organization",
+    "name": "GrowingUpTogether.ai"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What ages is this for?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Growing Up Together is written for parents, grandparents, and caregivers of children of all ages — but especially families with kids between 8 and 18. The Make the Moments Matter cards are designed so that everyone at the table, from age 6 to 86, can participate."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the book physical or digital?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The advance copy is a digital ebook. A physical edition is planned for later in 2026. The Make the Moments Matter card deck is a physical printed deck that ships to your door, plus a digital companion app you can access anywhere."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I buy just the card deck without the book?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The card deck and digital app are available as a standalone purchase for $19.99. However, the book provides the foundation — the why behind each card — and we recommend experiencing both together."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When does everything launch?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We are launching in Summer 2026. Early readers who sign up now will receive their copies before the general public, plus exclusive access to the Growing Up Together community."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the Family GPT?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Family GPT is a private, AI-powered tool that lives on your device and reflects your family's values, boundaries, and communication style. It is not a chatbot that gives advice — it is a mirror that helps your family stay aligned during difficult conversations. No one else can see it or access it. Your data is never stored or shared."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is this different from other parenting books?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most books tell you what is wrong. This one gives you what to do about it — starting tonight. It comes with practical tools: conversation cards, a private AI assistant, a community framework, and a clear escalation path from your dinner table to the halls of Congress. It is a book, a toolkit, and a movement."
+      }
+    }
+  ]
+}
+</script>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏠</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+:root {
+  --ink: #1a1a2e;
+  --cream: #faf8f5;
+  --accent: #c0392b;
+  --accent-dark: #96281b;
+  --warm: #e8ddd3;
+  --gold: #d4a84b;
+  --text: #2c2c2c;
+  --muted: #6b6b6b;
+  --blue-dark: #16213e;
+  --green: #27ae60;
+}
+html { scroll-behavior: smooth; }
+body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--cream); }
+
+/* ── NAV ── */
+nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  background: rgba(26, 26, 46, 0.95); backdrop-filter: blur(10px);
+  padding: 0 2rem; height: 60px; display: flex; align-items: center; justify-content: space-between;
+}
+nav .logo { font-family: 'Playfair Display', serif; font-weight: 700; font-size: 1.1rem; color: #fff; letter-spacing: 0.02em; }
+nav .logo span { color: var(--gold); }
+nav ul { list-style: none; display: flex; gap: 1.4rem; }
+nav ul li a { color: rgba(255,255,255,0.8); text-decoration: none; font-size: 0.8rem; font-weight: 500; letter-spacing: 0.03em; text-transform: uppercase; transition: color 0.2s; }
+nav ul li a:hover { color: var(--gold); }
+
+/* ── HERO ── */
+.hero {
+  min-height: 100vh; display: flex; align-items: center; justify-content: center;
+  background: linear-gradient(135deg, var(--ink) 0%, var(--blue-dark) 40%, #0f3460 100%);
+  color: #fff; text-align: center; padding: 6rem 2rem 4rem;
+  position: relative; overflow: hidden;
+}
+.hero::before {
+  content: ''; position: absolute; top: -50%; left: -50%; width: 200%; height: 200%;
+  background: radial-gradient(circle at 30% 40%, rgba(192, 57, 43, 0.15) 0%, transparent 50%),
+              radial-gradient(circle at 70% 60%, rgba(212, 168, 75, 0.1) 0%, transparent 50%);
+  animation: slowPulse 15s ease-in-out infinite alternate;
+}
+@keyframes slowPulse { 0% { transform: scale(1) rotate(0deg); } 100% { transform: scale(1.05) rotate(2deg); } }
+.hero-content { position: relative; z-index: 1; max-width: 800px; }
+.hero-tagline { font-weight: 600; font-size: 0.85rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); margin-bottom: 1.5rem; }
+.hero h1 { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(2.5rem, 6vw, 4.2rem); line-height: 1.15; margin-bottom: 1.5rem; }
+.hero h1 em { font-style: normal; color: var(--gold); }
+.hero-sub { font-family: 'Source Serif 4', serif; font-size: 1.25rem; line-height: 1.7; color: rgba(255,255,255,0.85); max-width: 620px; margin: 0 auto 2.5rem; }
+.hero-cta-row { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+.hero-cta {
+  display: inline-block; padding: 1rem 2.2rem; background: var(--accent);
+  color: #fff; text-decoration: none; font-weight: 700; font-size: 0.95rem;
+  letter-spacing: 0.05em; text-transform: uppercase; border-radius: 4px;
+  transition: all 0.3s; border: 2px solid var(--accent);
+}
+.hero-cta:hover { background: transparent; border-color: #fff; }
+.hero-cta.secondary { background: transparent; border-color: var(--gold); color: var(--gold); }
+.hero-cta.secondary:hover { background: var(--gold); color: var(--ink); }
+.hero-scroll { position: absolute; bottom: 2rem; left: 50%; transform: translateX(-50%); color: rgba(255,255,255,0.4); font-size: 0.75rem; letter-spacing: 0.15em; text-transform: uppercase; animation: bounce 2s infinite; }
+@keyframes bounce { 0%, 100% { transform: translateX(-50%) translateY(0); } 50% { transform: translateX(-50%) translateY(8px); } }
+
+/* ── SECTION COMMON ── */
+section { padding: 5rem 2rem; }
+.section-inner { max-width: 900px; margin: 0 auto; }
+.section-label { font-weight: 700; font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.75rem; }
+.section-title { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(1.8rem, 4vw, 2.6rem); line-height: 1.2; color: var(--ink); margin-bottom: 1.5rem; }
+
+/* ── SURVEY ── */
+#survey { background: #f0ebe4; }
+.survey-intro { font-family: 'Source Serif 4', serif; font-size: 1.1rem; line-height: 1.8; color: var(--text); margin-bottom: 2.5rem; max-width: 700px; }
+.survey-layout { display: grid; grid-template-columns: 1fr 340px; gap: 3rem; align-items: start; }
+.survey-form { max-width: 700px; position: relative; }
+.survey-thanks-banner { display: none; background: var(--green); color: #fff; padding: 1.25rem 1.5rem; border-radius: 8px; margin-bottom: 2rem; font-weight: 600; text-align: center; font-size: 1.05rem; }
+.survey-thanks-banner.show { display: block; animation: slideDown 0.3s ease; }
+@keyframes slideDown { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
+.survey-question { background: #fff; border-radius: 8px; padding: 1.75rem 2rem; margin-bottom: 1.25rem; box-shadow: 0 2px 8px rgba(0,0,0,0.06); border-left: 4px solid var(--accent); }
+.survey-question .q-number { font-weight: 700; font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.5rem; }
+.survey-question h4 { font-family: 'Source Serif 4', serif; font-size: 1.05rem; font-weight: 600; color: var(--ink); margin-bottom: 1rem; line-height: 1.4; }
+.survey-options { display: flex; flex-direction: column; gap: 0.4rem; }
+.survey-options label { display: flex; align-items: center; gap: 0.75rem; padding: 0.5rem 0.75rem; border-radius: 6px; cursor: pointer; font-size: 0.9rem; color: var(--text); transition: background 0.2s; }
+.survey-options label:hover { background: var(--cream); }
+.survey-options input[type="radio"] { accent-color: var(--accent); width: 16px; height: 16px; }
+.survey-options input[type="radio"]:disabled { cursor: not-allowed; opacity: 0.6; }
+.survey-textarea { width: 100%; min-height: 80px; border: 1px solid #ddd; border-radius: 6px; padding: 0.75rem; font-family: 'Inter', sans-serif; font-size: 0.95rem; resize: vertical; }
+.survey-textarea:focus { outline: none; border-color: var(--accent); }
+.survey-textarea:disabled { background: #f5f5f5; cursor: not-allowed; opacity: 0.6; }
+.survey-submit { display: inline-block; padding: 1rem 3rem; background: var(--accent); color: #fff; border: none; font-weight: 700; font-size: 1rem; letter-spacing: 0.05em; text-transform: uppercase; border-radius: 4px; cursor: pointer; transition: background 0.3s; margin-top: 1rem; }
+.survey-submit:hover:not(:disabled) { background: var(--accent-dark); }
+.survey-submit:disabled { opacity: 0.6; cursor: not-allowed; }
+.survey-share-section { display: none; background: #fff; border-radius: 8px; padding: 1.75rem 2rem; margin-top: 1.5rem; box-shadow: 0 2px 8px rgba(0,0,0,0.06); border-left: 4px solid var(--gold); }
+.survey-share-section.show { display: block; animation: slideDown 0.3s ease; }
+.survey-share-section h3 { font-family: 'Playfair Display', serif; font-size: 1.3rem; color: var(--ink); margin-bottom: 0.75rem; }
+.survey-share-section p { font-family: 'Source Serif 4', serif; font-size: 0.95rem; color: var(--text); margin-bottom: 1.25rem; }
+.survey-share-buttons { display: flex; gap: 1rem; flex-wrap: wrap; }
+.survey-share-btn { padding: 0.75rem 1.5rem; border: 2px solid var(--gold); background: transparent; color: var(--gold); font-weight: 600; border-radius: 4px; cursor: pointer; font-size: 0.95rem; transition: all 0.2s; }
+.survey-share-btn:hover { background: var(--gold); color: var(--ink); }
+.survey-share-feedback { margin-top: 0.5rem; font-size: 0.85rem; color: var(--green); font-weight: 600; display: none; }
+.survey-thanks { display: none; text-align: center; padding: 3rem 2rem; font-family: 'Source Serif 4', serif; font-size: 1.2rem; color: var(--ink); }
+
+/* ── LIVE RESULTS ── */
+.results-panel { position: sticky; top: 80px; }
+.results-panel h3 { font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--ink); margin-bottom: 0.25rem; }
+.results-panel .results-subtitle { font-size: 0.8rem; color: var(--muted); margin-bottom: 1.25rem; }
+.results-count { font-size: 0.75rem; font-weight: 700; color: var(--accent); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1rem; }
+.result-group { margin-bottom: 1.25rem; }
+.result-group .rg-label { font-size: 0.75rem; font-weight: 600; color: var(--ink); margin-bottom: 0.4rem; letter-spacing: 0.02em; }
+.result-bar-row { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.25rem; }
+.result-bar-label { font-size: 0.65rem; color: var(--muted); min-width: 70px; text-align: right; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.result-bar-track { flex: 1; height: 16px; background: #e8e2da; border-radius: 8px; overflow: hidden; }
+.result-bar-fill { height: 100%; border-radius: 8px; transition: width 0.6s ease; min-width: 0; }
+.result-bar-fill.c1 { background: var(--accent); }
+.result-bar-fill.c2 { background: var(--gold); }
+.result-bar-fill.c3 { background: var(--green); }
+.result-bar-fill.c4 { background: var(--ink); }
+.result-bar-pct { font-size: 0.65rem; font-weight: 700; color: var(--text); min-width: 30px; }
+
+/* ── ABOUT ── */
+#about { background: var(--cream); }
+.about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; margin-top: 2rem; }
+.author-photo-wrap { margin-bottom: 0.3rem; }
+.author-photo { width: 100%; max-width: 320px; border-radius: 10px; object-fit: cover; object-position: center top; display: block; box-shadow: 0 12px 40px rgba(26,26,46,0.18); }
+.about-author h3, .about-book h3 { font-family: 'Playfair Display', serif; font-size: 1.5rem; color: var(--ink); margin-bottom: 0.25rem; }
+.about-author .credentials { font-size: 0.85rem; color: var(--accent); font-weight: 600; letter-spacing: 0.03em; margin-bottom: 1.25rem; }
+.about-author p, .about-book p { font-family: 'Source Serif 4', serif; font-size: 1.05rem; line-height: 1.8; color: var(--text); margin-bottom: 1rem; }
+.about-book .subtitle { font-family: 'Source Serif 4', serif; font-style: italic; font-size: 0.95rem; color: var(--muted); margin-bottom: 1.25rem; }
+.highlight-box { background: var(--ink); color: #fff; padding: 1.5rem 2rem; border-radius: 6px; margin-top: 1.5rem; border-left: 4px solid var(--gold); }
+.highlight-box p { font-family: 'Source Serif 4', serif; font-size: 1rem; line-height: 1.7; color: rgba(255,255,255,0.9); margin: 0; }
+.highlight-box .attribution { font-size: 0.8rem; color: var(--gold); margin-top: 0.75rem; font-weight: 600; }
+/* ── SLIDE GALLERY ── */
+.slide-gallery { margin-top: 3rem; }
+.slide-gallery-header { text-align: center; margin-bottom: 1.5rem; }
+.slide-gallery-title { font-family: 'Playfair Display', serif; font-weight: 900; font-size: 1.4rem; color: var(--ink); margin-bottom: 0.25rem; }
+.slide-gallery-subtitle { font-family: 'Source Serif 4', serif; font-size: 0.95rem; color: var(--muted); }
+.slide-viewer { position: relative; background: #fff; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); overflow: hidden; }
+.slide-display { width: 100%; aspect-ratio: 16/9; display: flex; align-items: center; justify-content: center; background: #f5f2ee; }
+.slide-display img { width: 100%; height: 100%; object-fit: contain; display: block; }
+.slide-nav-btn { position: absolute; top: 50%; transform: translateY(-50%); width: 44px; height: 44px; border-radius: 50%; background: rgba(26,26,46,0.7); color: #fff; border: none; font-size: 1.3rem; cursor: pointer; transition: background 0.2s; display: flex; align-items: center; justify-content: center; z-index: 2; }
+.slide-nav-btn:hover { background: rgba(26,26,46,0.9); }
+.slide-nav-btn.prev { left: 12px; }
+.slide-nav-btn.next { right: 12px; }
+.slide-counter { text-align: center; padding: 0.75rem; font-size: 0.8rem; font-weight: 600; color: var(--muted); letter-spacing: 0.05em; }
+.slide-thumbnails { display: flex; gap: 6px; overflow-x: auto; padding: 0 0.75rem 0.75rem; scrollbar-width: thin; }
+.slide-thumbnails::-webkit-scrollbar { height: 4px; }
+.slide-thumbnails::-webkit-scrollbar-thumb { background: var(--gold); border-radius: 2px; }
+.slide-thumb { flex: 0 0 80px; height: 45px; border-radius: 4px; overflow: hidden; cursor: pointer; border: 2px solid transparent; opacity: 0.5; transition: all 0.2s; }
+.slide-thumb:hover { opacity: 0.8; }
+.slide-thumb.active { border-color: var(--gold); opacity: 1; }
+.slide-thumb img { width: 100%; height: 100%; object-fit: cover; }
+
+/* ── CARD DECK (MTMM) SECTION ── */
+.mtmm-section { background: linear-gradient(180deg, var(--ink) 0%, #16213e 100%); padding: 5rem 2rem; position: relative; overflow: hidden; }
+.mtmm-section::before {
+  content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+  background-image: radial-gradient(circle at 20% 30%, rgba(212, 168, 75, 0.12) 0%, transparent 50%),
+                    radial-gradient(circle at 80% 70%, rgba(192, 57, 43, 0.08) 0%, transparent 50%),
+                    radial-gradient(circle at 50% 50%, rgba(255,255,255,0.02) 0%, transparent 70%);
+  pointer-events: none;
+}
+.mtmm-inner { max-width: 900px; margin: 0 auto; position: relative; z-index: 1; }
+.mtmm-header { text-align: center; margin-bottom: 3rem; }
+.mtmm-label { font-weight: 700; font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.75rem; }
+.mtmm-title { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.2; color: #fff; margin-bottom: 1.25rem; }
+.mtmm-subtitle { font-family: 'Source Serif 4', serif; font-size: 1.15rem; line-height: 1.9; color: rgba(255,255,255,0.85); max-width: 700px; margin: 0 auto; }
+
+.category-guide { margin-bottom: 3.5rem; background: rgba(255,255,255,0.05); border-radius: 12px; padding: 2rem; border: 1px solid rgba(212,168,75,0.15); }
+.category-guide-title { font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--gold); text-align: center; margin-bottom: 1.5rem; font-weight: 700; }
+.category-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 1.5rem; margin-top: 0; }
+.category-item { display: flex; flex-direction: column; align-items: center; text-align: center; }
+.category-dot { width: 18px; height: 18px; border-radius: 50%; margin-bottom: 0.75rem; box-shadow: 0 0 8px rgba(255,255,255,0.15); }
+.category-name { font-family: 'Inter', sans-serif; font-size: 0.75rem; font-weight: 600; color: rgba(255,255,255,0.75); line-height: 1.4; }
+
+.card-draw-area { background: transparent; border-radius: 12px; padding: 3rem 0; margin-bottom: 3.5rem; }
+.draw-button-wrapper { text-align: center; margin-bottom: 2.5rem; }
+.draw-card-btn {
+  display: inline-block; padding: 1rem 3rem; background: linear-gradient(135deg, var(--gold) 0%, #b8963e 100%); color: var(--ink);
+  font-family: 'Playfair Display', serif; font-weight: 700; font-size: 1.1rem; letter-spacing: 0.05em;
+  border: none; border-radius: 6px; cursor: pointer;
+  transition: all 0.3s; box-shadow: 0 4px 20px rgba(212,168,75,0.4);
+}
+.draw-card-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 28px rgba(212,168,75,0.6); }
+
+.card-display-wrapper { display: flex; flex-direction: column; align-items: center; }
+.flip-hint { font-family: 'Inter', sans-serif; font-size: 0.85rem; color: rgba(255,255,255,0.5); margin-bottom: 1.5rem; font-style: italic; }
+.card-flip-container { perspective: 1200px; width: 100%; max-width: 340px; cursor: pointer; }
+.card-flip-inner {
+  position: relative; width: 100%; aspect-ratio: 2/3;
+  transition: transform 0.7s cubic-bezier(0.4, 0, 0.2, 1); transform-style: preserve-3d;
+}
+.card-flip-inner.flipped { transform: rotateY(180deg); }
+.card-face { position: absolute; width: 100%; height: 100%; backface-visibility: hidden; border-radius: 14px; box-shadow: 0 12px 40px rgba(0,0,0,0.35), 0 0 0 1px rgba(212,168,75,0.1); }
+.card-front { background: linear-gradient(180deg, #fff 0%, #faf8f5 100%); display: flex; flex-direction: column; padding: 1.75rem; }
+.card-front.empty { justify-content: center; align-items: center; color: var(--muted); background: linear-gradient(180deg, rgba(255,255,255,0.08) 0%, rgba(255,255,255,0.03) 100%); border: 2px dashed rgba(212,168,75,0.3); }
+.card-front.empty div { color: rgba(255,255,255,0.4); }
+.card-color-band { width: calc(100% + 3.5rem); margin: -1.75rem -1.75rem 1.5rem -1.75rem; height: 56px; border-radius: 14px 14px 0 0; display: flex; align-items: center; gap: 0.75rem; padding-left: 1.75rem; font-weight: 700; color: #fff; font-size: 0.9rem; font-family: 'Inter', sans-serif; letter-spacing: 0.03em; }
+.card-band-icon { font-size: 1.2rem; opacity: 0.9; }
+.card-category { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.5rem; }
+.card-question { font-family: 'Playfair Display', serif; font-weight: 700; font-size: 1.2rem; line-height: 1.5; color: var(--ink); margin-bottom: auto; text-align: center; padding: 1rem 0; }
+.card-bottom-label { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 0.65rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--gold); text-align: center; margin-top: 1.25rem; }
+
+.card-back { background: linear-gradient(180deg, #faf8f5 0%, #f0ebe4 100%); backface-visibility: hidden; transform: rotateY(180deg); display: flex; flex-direction: column; padding: 1.75rem; border-radius: 14px; }
+.card-back-band { width: calc(100% + 3.5rem); margin: -1.75rem -1.75rem 1.5rem -1.75rem; height: 56px; border-radius: 14px 14px 0 0; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; }
+.card-back-label { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); margin-bottom: 1.25rem; }
+.card-follow-ups { font-family: 'Source Serif 4', serif; font-size: 0.95rem; line-height: 1.8; color: var(--text); margin-bottom: auto; }
+.card-follow-ups li { list-style: none; margin-bottom: 0.85rem; padding-left: 1.5rem; position: relative; }
+.card-follow-ups li::before { content: '→'; position: absolute; left: 0; color: var(--gold); font-weight: 700; }
+.card-chapter { font-family: 'Source Serif 4', serif; font-style: italic; font-size: 0.75rem; color: var(--muted); margin-top: 1rem; padding-top: 1rem; border-top: 1px solid rgba(0,0,0,0.08); }
+.card-code { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 0.75rem; color: var(--gold); letter-spacing: 0.05em; }
+
+.teaser-row { margin-bottom: 3.5rem; }
+.teaser-label { font-family: 'Inter', sans-serif; font-weight: 600; font-size: 0.75rem; color: rgba(255,255,255,0.4); margin-bottom: 1.5rem; text-transform: uppercase; letter-spacing: 0.15em; text-align: center; }
+.teaser-cards { display: flex; gap: 1.4rem; overflow-x: auto; padding-bottom: 1rem; scroll-behavior: smooth; justify-content: center; flex-wrap: wrap; }
+.teaser-cards::-webkit-scrollbar { height: 4px; }
+.teaser-cards::-webkit-scrollbar-track { background: rgba(255,255,255,0.05); border-radius: 2px; }
+.teaser-cards::-webkit-scrollbar-thumb { background: var(--gold); border-radius: 2px; }
+.teaser-card { flex: 0 0 200px; border-radius: 12px; overflow: hidden; box-shadow: 0 8px 24px rgba(0,0,0,0.25), 0 0 0 1px rgba(255,255,255,0.05); transition: transform 0.3s, box-shadow 0.3s; }
+.teaser-card:hover { transform: translateY(-6px); box-shadow: 0 14px 36px rgba(0,0,0,0.35); }
+.teaser-card-front { background: linear-gradient(180deg, #fff 0%, #faf8f5 100%); display: flex; flex-direction: column; padding: 1.25rem; height: 280px; }
+.teaser-band { width: calc(100% + 2.5rem); margin: -1.25rem -1.25rem 0.75rem -1.25rem; height: 44px; display: flex; align-items: center; gap: 0.5rem; padding-left: 1.25rem; font-weight: 700; color: #fff; font-size: 0.75rem; font-family: 'Inter', sans-serif; }
+.teaser-category { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.5rem; }
+.teaser-question { font-family: 'Playfair Display', serif; font-weight: 700; font-size: 0.95rem; line-height: 1.45; color: var(--ink); text-align: center; }
+
+.mtmm-purchase-box { background: linear-gradient(135deg, rgba(212, 168, 75, 0.1) 0%, rgba(255,255,255,0.05) 100%); border: 2px solid var(--gold); border-radius: 16px; padding: 3rem; text-align: center; backdrop-filter: blur(10px); }
+.mtmm-purchase-title { font-family: 'Playfair Display', serif; font-weight: 900; font-size: 1.8rem; color: #fff; margin-bottom: 0.75rem; }
+.mtmm-purchase-desc { font-family: 'Source Serif 4', serif; font-size: 1rem; color: rgba(255,255,255,0.75); margin-bottom: 1.5rem; line-height: 1.7; max-width: 550px; margin-left: auto; margin-right: auto; }
+.mtmm-price { font-family: 'Playfair Display', serif; font-weight: 900; font-size: 2.8rem; color: var(--gold); margin: 1.5rem 0; }
+.order-now-btn {
+  display: inline-block; padding: 1rem 3rem; background: linear-gradient(135deg, var(--gold) 0%, #b8963e 100%); color: var(--ink);
+  font-family: 'Playfair Display', serif; font-weight: 700; font-size: 1rem; letter-spacing: 0.05em;
+  border: none; border-radius: 6px; cursor: pointer;
+  transition: all 0.3s; box-shadow: 0 4px 20px rgba(212,168,75,0.4); margin: 1.5rem 0;
+}
+.order-now-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 28px rgba(212,168,75,0.6); }
+.card-signup-form { display: flex; flex-direction: column; align-items: center; gap: 0.75rem; max-width: 360px; margin: 0 auto; }
+.card-signup-form input { width: 100%; padding: 0.85rem 1.25rem; border: 1px solid rgba(212,168,75,0.3); border-radius: 6px; background: rgba(255,255,255,0.08); color: #fff; font-family: 'Inter', sans-serif; font-size: 0.95rem; outline: none; transition: border-color 0.2s; }
+.card-signup-form input::placeholder { color: rgba(255,255,255,0.4); }
+.card-signup-form input:focus { border-color: var(--gold); background: rgba(255,255,255,0.12); }
+.card-thank-you { text-align: center; padding: 1.5rem; }
+.card-thank-you-icon { font-size: 2.5rem; color: var(--gold); margin-bottom: 0.75rem; }
+.card-thank-you-text { font-family: 'Source Serif 4', serif; font-size: 1.05rem; color: rgba(255,255,255,0.85); line-height: 1.7; }
+
+/* ── TESTIMONIALS ── */
+.testimonial-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-top: 2rem; }
+.testimonial-card { background: #fff; border-radius: 10px; padding: 2rem 1.75rem; box-shadow: 0 2px 12px rgba(0,0,0,0.06); text-align: left; border-top: 3px solid var(--gold); }
+.testimonial-quote { font-family: 'Source Serif 4', serif; font-size: 1rem; line-height: 1.8; color: var(--text); margin-bottom: 1.25rem; }
+.testimonial-author { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 0.8rem; color: var(--accent); }
+@media (max-width: 768px) { .testimonial-grid { grid-template-columns: 1fr; } .pricing-options { grid-template-columns: 1fr; } }
+
+/* ── INFOGRAPHIC ── */
+.infographic { margin: 3rem 0; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.15); }
+.infographic-title { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(1.4rem, 3vw, 2rem); text-align: center; padding: 2rem 2rem 1.5rem; background: linear-gradient(135deg, #2c3e6b 0%, #1a1a2e 100%); color: #fff; }
+.infographic-title em { font-style: normal; color: var(--gold); }
+.infographic-panels { display: grid; grid-template-columns: 1fr 1fr; }
+.infographic-panel { padding: 2rem; }
+.infographic-panel.crisis { background: linear-gradient(180deg, #1a1a2e 0%, #2c3e6b 100%); color: #fff; }
+.infographic-panel.roadmap { background: linear-gradient(180deg, #e8f5e9 0%, #f0faf1 100%); color: var(--ink); }
+.infographic-panel h3 { font-family: 'Playfair Display', serif; font-size: 1.3rem; margin-bottom: 1.5rem; }
+.infographic-panel.crisis h3 { color: #fff; }
+.infographic-panel.roadmap h3 { color: var(--ink); }
+.infographic-stat { display: flex; gap: 1rem; align-items: flex-start; margin-bottom: 1.5rem; }
+.infographic-stat-icon { font-size: 2rem; min-width: 48px; text-align: center; }
+.infographic-stat h4 { font-family: 'Inter', sans-serif; font-weight: 800; font-size: 1.1rem; margin-bottom: 0.25rem; }
+.infographic-stat.crisis-stat h4 { color: var(--gold); }
+.infographic-stat p { font-size: 0.85rem; line-height: 1.5; opacity: 0.85; }
+.infographic-step { display: flex; gap: 1rem; align-items: flex-start; margin-bottom: 1.5rem; padding: 1rem; background: rgba(255,255,255,0.7); border-radius: 8px; border-left: 4px solid var(--green); }
+.infographic-step-num { font-family: 'Playfair Display', serif; font-weight: 900; font-size: 1.5rem; color: var(--green); min-width: 36px; }
+.infographic-step h4 { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 0.95rem; color: var(--ink); margin-bottom: 0.25rem; }
+.infographic-step p { font-size: 0.85rem; line-height: 1.5; color: var(--text); }
+
+/* ── FAQ ── */
+#faq { background: #f0ebe4; }
+.faq-list { max-width: 700px; margin: 2rem auto 0; }
+.faq-item { border-bottom: 1px solid rgba(0,0,0,0.08); }
+.faq-question { font-family: 'Source Serif 4', serif; font-size: 1.05rem; font-weight: 600; color: var(--ink); padding: 1.25rem 2.5rem 1.25rem 0; cursor: pointer; position: relative; line-height: 1.5; }
+.faq-question::after { content: '+'; position: absolute; right: 0; top: 50%; transform: translateY(-50%); font-size: 1.5rem; font-weight: 300; color: var(--gold); transition: transform 0.3s; }
+.faq-question.open::after { content: '−'; }
+.faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.4s ease, padding 0.3s ease; }
+.faq-answer.open { max-height: 500px; }
+.faq-answer p { font-family: 'Source Serif 4', serif; font-size: 0.95rem; line-height: 1.8; color: var(--text); padding: 0 0 1.25rem 0; }
+
+/* ── VIDEO SECTION ── */
+.video-section { margin-top: 3rem; margin-bottom: 3rem; }
+.video-container { background: var(--ink); border-radius: 8px; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.2); }
+.video-container video { width: 100%; display: block; border-radius: 8px; }
+.video-title { font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--ink); margin-bottom: 1rem; text-align: center; }
+
+/* ── TOP 10 LESSONS ── */
+#lessons { background: var(--ink); color: #fff; }
+#lessons .section-label { color: var(--gold); }
+#lessons .section-title { color: #fff; }
+.lessons-intro { font-family: 'Source Serif 4', serif; font-size: 1.1rem; line-height: 1.8; color: rgba(255,255,255,0.8); margin-bottom: 2.5rem; max-width: 700px; }
+.lesson-list { counter-reset: lesson; }
+.lesson-item { counter-increment: lesson; display: flex; gap: 1.5rem; align-items: flex-start; padding: 1.25rem 0; border-bottom: 1px solid rgba(255,255,255,0.1); }
+.lesson-item:last-child { border-bottom: none; }
+.lesson-number { font-family: 'Playfair Display', serif; font-weight: 900; font-size: 1.8rem; color: var(--gold); min-width: 48px; text-align: right; line-height: 1.2; }
+.lesson-text { font-family: 'Source Serif 4', serif; font-size: 1.05rem; line-height: 1.7; color: rgba(255,255,255,0.9); }
+.lesson-text strong { color: #fff; font-weight: 600; }
+
+/* ── TALKING POINTS ── */
+#talkingpoints { background: var(--cream); }
+.tp-themes { margin-bottom: 3rem; }
+.tp-theme { display: flex; gap: 1.25rem; align-items: flex-start; padding: 1.25rem 0; border-bottom: 1px solid #ddd; }
+.tp-theme:last-child { border-bottom: none; }
+.tp-icon { width: 40px; height: 40px; border-radius: 50%; background: var(--accent); color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 1rem; flex-shrink: 0; }
+.tp-content h4 { font-family: 'Source Serif 4', serif; font-size: 1.05rem; font-weight: 600; color: var(--ink); margin-bottom: 0.3rem; }
+.tp-content p { font-family: 'Source Serif 4', serif; font-size: 0.95rem; line-height: 1.7; color: var(--text); }
+.tp-scripts-title { font-family: 'Playfair Display', serif; font-size: 1.4rem; color: var(--ink); margin-bottom: 1rem; }
+.tp-scripts-sub { font-family: 'Source Serif 4', serif; font-size: 1rem; color: var(--muted); margin-bottom: 1.5rem; }
+.tp-script-card { background: #fff; border-radius: 8px; padding: 1.75rem 2rem; margin-bottom: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.06); cursor: pointer; transition: box-shadow 0.2s; }
+.tp-script-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.1); }
+.tp-script-header { display: flex; justify-content: space-between; align-items: center; }
+.tp-script-header h4 { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 0.95rem; color: var(--ink); }
+.tp-script-venue { font-size: 0.7rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); background: rgba(192,57,43,0.08); padding: 0.25rem 0.75rem; border-radius: 20px; }
+.tp-script-toggle { font-size: 1.2rem; color: var(--muted); transition: transform 0.3s; }
+.tp-script-card.open .tp-script-toggle { transform: rotate(180deg); }
+.tp-script-body { display: none; margin-top: 1.25rem; padding-top: 1.25rem; border-top: 1px solid #eee; }
+.tp-script-card.open .tp-script-body { display: block; }
+.tp-script-body p { font-family: 'Source Serif 4', serif; font-size: 0.95rem; line-height: 1.8; color: var(--text); margin-bottom: 0.75rem; }
+.tp-script-body .script-text { background: var(--cream); border-left: 3px solid var(--gold); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin: 1rem 0; font-style: italic; }
+.tp-script-body .script-label { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.5rem; }
+
+/* ── LEAD / ORGANIZER ── */
+#lead { background: linear-gradient(135deg, var(--ink) 0%, var(--blue-dark) 100%); color: #fff; }
+#lead .section-label { color: var(--gold); }
+#lead .section-title { color: #fff; }
+.lead-intro { font-family: 'Source Serif 4', serif; font-size: 1.1rem; line-height: 1.8; color: rgba(255,255,255,0.85); margin-bottom: 2rem; max-width: 700px; }
+.lead-form { max-width: 600px; }
+.lead-form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-bottom: 0.75rem; }
+.lead-form input, .lead-form select, .lead-form textarea {
+  width: 100%; padding: 0.9rem 1rem; border: 2px solid rgba(255,255,255,0.2);
+  background: rgba(255,255,255,0.08); color: #fff; border-radius: 4px;
+  font-family: 'Inter', sans-serif; font-size: 0.95rem; transition: border-color 0.2s;
+}
+.lead-form input::placeholder, .lead-form textarea::placeholder { color: rgba(255,255,255,0.4); }
+.lead-form input:focus, .lead-form select:focus, .lead-form textarea:focus { outline: none; border-color: var(--gold); background: rgba(255,255,255,0.12); }
+.lead-form select { appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23d4a84b' stroke-width='2' fill='none'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 1rem center; }
+.lead-form select option { background: var(--ink); color: #fff; }
+.lead-form .full-width { grid-column: 1 / -1; }
+.lead-form textarea { min-height: 80px; resize: vertical; margin-bottom: 0.75rem; }
+.lead-submit { display: inline-block; padding: 1rem 3rem; background: var(--gold); color: var(--ink); border: none; font-weight: 700; font-size: 1rem; letter-spacing: 0.05em; text-transform: uppercase; border-radius: 4px; cursor: pointer; transition: all 0.3s; }
+.lead-submit:hover { background: #e6bc5a; }
+.lead-thanks { display: none; text-align: center; padding: 2rem; }
+.lead-thanks h3 { font-family: 'Playfair Display', serif; font-size: 1.6rem; color: var(--gold); margin-bottom: 0.75rem; }
+.lead-thanks p { font-family: 'Source Serif 4', serif; font-size: 1.05rem; color: rgba(255,255,255,0.85); }
+
+/* ── SIGNUP ── */
+#signup { background: linear-gradient(135deg, var(--accent) 0%, var(--accent-dark) 100%); color: #fff; text-align: center; }
+#signup .section-label { color: rgba(255,255,255,0.7); }
+#signup .section-title { color: #fff; }
+.signup-price { font-family: 'Playfair Display', serif; font-size: 3.5rem; font-weight: 900; margin: 1rem 0 0.25rem; }
+.signup-price-note { font-size: 0.9rem; color: rgba(255,255,255,0.8); margin-bottom: 2rem; }
+.signup-form { max-width: 480px; margin: 0 auto; }
+.signup-form input { width: 100%; padding: 1rem 1.25rem; border: 2px solid rgba(255,255,255,0.3); background: rgba(255,255,255,0.1); color: #fff; border-radius: 4px; font-size: 1rem; margin-bottom: 0.75rem; }
+.signup-form input::placeholder { color: rgba(255,255,255,0.5); }
+.signup-form input:focus { outline: none; border-color: #fff; background: rgba(255,255,255,0.15); }
+.signup-btn { width: 100%; padding: 1rem; background: var(--ink); color: var(--gold); border: none; font-weight: 700; font-size: 1rem; letter-spacing: 0.1em; text-transform: uppercase; border-radius: 4px; cursor: pointer; transition: all 0.3s; }
+.signup-btn:hover { background: #000; }
+.signup-note { font-size: 0.8rem; color: rgba(255,255,255,0.6); margin-top: 1rem; }
+.pricing-options { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; max-width: 580px; margin: 0 auto; }
+.pricing-card { background: rgba(255,255,255,0.08); border: 2px solid rgba(255,255,255,0.15); border-radius: 12px; padding: 1.75rem 1.25rem; text-align: center; cursor: pointer; transition: all 0.3s; position: relative; }
+.pricing-card:hover { border-color: rgba(255,255,255,0.35); }
+.pricing-card.selected { border-color: var(--gold); background: rgba(212,168,75,0.1); }
+.pricing-card.featured { border-color: var(--gold); }
+.pricing-best { position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: var(--gold); color: var(--ink); font-family: 'Inter', sans-serif; font-weight: 700; font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; padding: 0.25rem 1rem; border-radius: 20px; white-space: nowrap; }
+.pricing-badge { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.75rem; }
+.pricing-amount { font-family: 'Playfair Display', serif; font-weight: 900; font-size: 2.2rem; color: #fff; margin-bottom: 0.5rem; }
+.pricing-desc { font-family: 'Source Serif 4', serif; font-size: 0.85rem; color: rgba(255,255,255,0.65); line-height: 1.5; margin-bottom: 1rem; }
+.pricing-radio { display: flex; justify-content: center; }
+.radio-dot { display: inline-block; width: 20px; height: 20px; border-radius: 50%; border: 2px solid rgba(255,255,255,0.3); position: relative; }
+.radio-dot.active { border-color: var(--gold); }
+.radio-dot.active::after { content: ''; position: absolute; top: 3px; left: 3px; width: 10px; height: 10px; border-radius: 50%; background: var(--gold); }
+
+/* ── GPT SECTION ── */
+#gpt { background: var(--cream); }
+.family-profile-card { background: #fff; border-radius: 12px; padding: 2rem; margin: 2rem 0 3rem; box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+.family-profile-intro { font-family: 'Source Serif 4', serif; font-size: 0.95rem; line-height: 1.7; color: var(--text); margin-bottom: 1.5rem; }
+.family-members { display: grid; grid-template-columns: 1fr; gap: 1rem; }
+.family-member { padding: 1rem; border-bottom: 1px solid #eee; display: flex; gap: 1rem; align-items: flex-start; }
+.family-member:last-child { border-bottom: none; }
+.family-member-icon { font-size: 2rem; min-width: 40px; }
+.family-member-content h4 { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 1rem; color: var(--ink); margin-bottom: 0.25rem; }
+.family-member-content .role { font-size: 0.85rem; color: var(--accent); font-weight: 600; margin-bottom: 0.5rem; }
+.family-member-content p { font-family: 'Source Serif 4', serif; font-size: 0.9rem; line-height: 1.6; color: var(--text); margin: 0; }
+.family-profile-note { font-family: 'Source Serif 4', serif; font-size: 0.9rem; color: var(--muted); margin-top: 1.5rem; font-style: italic; }
+
+.chat-interface { background: var(--ink); border-radius: 12px; overflow: hidden; margin: 2rem 0; box-shadow: 0 20px 60px rgba(0,0,0,0.2); display: flex; flex-direction: column; height: 700px; }
+.chat-header { background: rgba(255,255,255,0.08); padding: 0.75rem 1.5rem; display: flex; align-items: center; gap: 0.75rem; border-bottom: 1px solid rgba(255,255,255,0.1); }
+.chat-dot { width: 10px; height: 10px; border-radius: 50%; }
+.chat-dot.r { background: #e74c3c; } .chat-dot.y { background: #f39c12; } .chat-dot.g { background: #2ecc71; }
+.chat-header-title { color: rgba(255,255,255,0.7); font-size: 0.8rem; font-weight: 500; margin-left: 0.5rem; }
+
+.chat-messages { flex: 1; overflow-y: auto; padding: 1.5rem; display: flex; flex-direction: column; gap: 1rem; }
+.chat-message { display: flex; gap: 0.75rem; align-items: flex-start; }
+.chat-avatar { width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.7rem; flex-shrink: 0; }
+.chat-avatar.user { background: var(--accent); color: #fff; }
+.chat-avatar.ai { background: var(--gold); color: var(--ink); }
+.chat-bubble { font-family: 'Source Serif 4', serif; font-size: 0.9rem; line-height: 1.6; padding: 0.75rem 1rem; border-radius: 8px; max-width: 85%; }
+.chat-message.user { justify-content: flex-end; }
+.chat-message.user .chat-bubble { background: var(--accent); color: #fff; }
+.chat-message.ai .chat-bubble { background: rgba(255,255,255,0.08); color: rgba(255,255,255,0.9); }
+.chat-typing { display: flex; gap: 4px; }
+.chat-typing span { width: 8px; height: 8px; border-radius: 50%; background: var(--gold); animation: typing 1.4s infinite; }
+.chat-typing span:nth-child(2) { animation-delay: 0.2s; }
+.chat-typing span:nth-child(3) { animation-delay: 0.4s; }
+@keyframes typing { 0%, 60%, 100% { opacity: 0.3; } 30% { opacity: 1; } }
+
+.chat-input-area { padding: 1rem; border-top: 1px solid rgba(255,255,255,0.1); display: flex; gap: 0.75rem; }
+.chat-input { flex: 1; padding: 0.75rem 1rem; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.2); border-radius: 6px; color: #fff; font-family: 'Inter', sans-serif; font-size: 0.9rem; }
+.chat-input::placeholder { color: rgba(255,255,255,0.4); }
+.chat-input:focus { outline: none; border-color: var(--gold); background: rgba(255,255,255,0.12); }
+.chat-send { padding: 0.75rem 1.5rem; background: var(--gold); color: var(--ink); border: none; font-weight: 600; border-radius: 6px; cursor: pointer; transition: all 0.2s; }
+.chat-send:hover { background: #e6bc5a; }
+.chat-send:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.chat-suggestions { display: flex; flex-direction: column; gap: 0.5rem; }
+.chat-suggestion { padding: 0.6rem 1.25rem; border: 1px solid rgba(212,168,75,0.4); color: var(--gold); background: rgba(212,168,75,0.1); border-radius: 20px; cursor: pointer; font-size: 0.85rem; font-weight: 500; text-align: left; transition: all 0.2s; }
+.chat-suggestion:hover { background: var(--gold); color: var(--ink); border-color: var(--gold); }
+.chat-suggestions-label { font-size: 0.75rem; color: rgba(255,255,255,0.5); font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.25rem; }
+
+.gpt-cta-section { text-align: center; padding: 2rem; border-top: 1px solid #eee; }
+.gpt-cta-section h3 { font-family: 'Playfair Display', serif; font-size: 1.4rem; color: var(--ink); margin-bottom: 0.5rem; }
+.gpt-cta-section p { font-family: 'Source Serif 4', serif; font-size: 0.95rem; color: var(--text); margin-bottom: 1.5rem; }
+.gpt-cta { display: inline-block; padding: 0.75rem 2rem; border: 2px solid var(--gold); color: var(--gold); text-decoration: none; font-weight: 600; font-size: 0.9rem; border-radius: 4px; letter-spacing: 0.05em; transition: all 0.3s; }
+.gpt-cta:hover { background: var(--gold); color: var(--ink); }
+
+.chat-error { background: rgba(192, 57, 43, 0.1); color: var(--accent); padding: 0.75rem 1rem; border-radius: 6px; font-size: 0.9rem; margin-bottom: 1rem; }
+
+/* ── ADMIN PANEL ── */
+#adminSection { background: linear-gradient(135deg, #0d1117 0%, #161b22 100%); padding: 3rem 2rem; display: none; }
+#adminSection.show { display: block; }
+.admin-toggle { display: inline-block; padding: 0.5rem 1.5rem; background: rgba(255,255,255,0.08); color: var(--gold); border: 1px solid var(--gold); border-radius: 4px; cursor: pointer; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; transition: all 0.2s; }
+.admin-toggle:hover { background: var(--gold); color: var(--ink); }
+.admin-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; flex-wrap: wrap; gap: 1rem; }
+.admin-header h2 { font-family: 'Playfair Display', serif; font-size: 1.6rem; color: #fff; }
+.admin-summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
+.admin-stat-card { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; padding: 1.25rem; text-align: center; }
+.admin-stat-card .stat-number { font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 900; color: var(--gold); }
+.admin-stat-card .stat-label { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.6); margin-top: 0.25rem; }
+.admin-filter-bar { display: flex; gap: 0.5rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
+.admin-filter-btn { padding: 0.4rem 1rem; border: 1px solid rgba(255,255,255,0.2); background: transparent; color: rgba(255,255,255,0.7); border-radius: 20px; cursor: pointer; font-size: 0.8rem; font-weight: 500; transition: all 0.2s; }
+.admin-filter-btn:hover, .admin-filter-btn.active { background: var(--gold); color: var(--ink); border-color: var(--gold); }
+
+/* ── FOOTER ── */
+footer { background: var(--ink); color: rgba(255,255,255,0.5); text-align: center; padding: 2.5rem 2rem; font-size: 0.8rem; border-top: 1px solid rgba(255,255,255,0.1); }
+footer a { color: var(--gold); text-decoration: none; }
+
+/* ── RESPONSIVE ── */
+/* ── HAMBURGER MENU ── */
+.hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 4px; z-index: 101; }
+.hamburger span { display: block; width: 24px; height: 2px; background: #fff; border-radius: 2px; transition: all 0.3s; }
+.hamburger.open span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
+.hamburger.open span:nth-child(2) { opacity: 0; }
+.hamburger.open span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
+
+@media (max-width: 768px) {
+  .hamburger { display: flex; }
+  nav ul {
+    display: none; position: fixed; top: 60px; left: 0; right: 0; background: rgba(26,26,46,0.98);
+    flex-direction: column; padding: 1.5rem 2rem; gap: 0; backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(212,168,75,0.2); box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  }
+  nav ul.show { display: flex; }
+  nav ul li a { display: block; padding: 0.85rem 0; font-size: 0.9rem; border-bottom: 1px solid rgba(255,255,255,0.06); }
+  nav ul li:last-child a { border-bottom: none; }
+  .about-grid, .survey-layout { grid-template-columns: 1fr; }
+  .about-grid { gap: 2.5rem; }
+  .survey-layout { gap: 2rem; }
+  .results-panel { position: static; }
+  .lead-form-row { grid-template-columns: 1fr; }
+  section { padding: 3.5rem 1.25rem; }
+  .chat-interface { height: 500px; }
+  .chat-bubble { max-width: 100%; }
+  .infographic-panels { grid-template-columns: 1fr; }
+  .admin-summary { grid-template-columns: repeat(2, 1fr); }
+  .teaser-cards { flex-wrap: nowrap; justify-content: flex-start; }
+  .category-grid { grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 1rem; }
+  footer > div:first-child { grid-template-columns: 1fr !important; }
+  .author-photo { max-width: 260px; }
+  .hero-cta-row { flex-direction: column; gap: 0.75rem; }
+  .hero-cta { font-size: 0.85rem; padding: 0.85rem 1.5rem; text-align: center; }
+  .hero h1 { font-size: clamp(1.8rem, 6vw, 3.5rem); }
+  #surveyEmailCapture { padding: 1.25rem; }
+  #surveyEmailCapture > div { flex-direction: column; }
+  #surveyEmailCapture input, #surveyEmailCapture button { width: 100%; }
+  .sticky-cta { flex-direction: column; gap: 0.5rem; padding: 0.6rem 1rem; }
+  .sticky-cta-text { font-size: 0.8rem; }
+  .sticky-cta-btn { width: 100%; text-align: center; padding: 0.7rem; }
+  .pricing-card { padding: 1.25rem; }
+  .mtmm-purchase-box { padding: 2rem 1.25rem; }
+  .card-signup-form { flex-direction: column; }
+  .card-signup-form input { width: 100%; }
+  .slide-viewer { padding: 0; }
+  .slide-nav-btn { width: 32px; height: 32px; font-size: 1.2rem; }
+  .faq-question { font-size: 0.95rem; padding-right: 2rem; }
+}
+
+/* ── STICKY CTA ── */
+.sticky-cta { position: fixed; bottom: -60px; left: 0; right: 0; z-index: 99; background: rgba(26,26,46,0.95); backdrop-filter: blur(10px); padding: 0.75rem 2rem; display: flex; align-items: center; justify-content: center; gap: 1.5rem; transition: bottom 0.4s ease; border-top: 1px solid rgba(212,168,75,0.2); }
+.sticky-cta.show { bottom: 0; }
+.sticky-cta-text { font-family: 'Source Serif 4', serif; font-size: 0.9rem; color: rgba(255,255,255,0.8); }
+.sticky-cta-btn { padding: 0.6rem 1.5rem; background: var(--gold); color: var(--ink); font-family: 'Inter', sans-serif; font-weight: 700; font-size: 0.8rem; letter-spacing: 0.05em; text-transform: uppercase; text-decoration: none; border-radius: 4px; white-space: nowrap; }
+
+/* ── SCROLL ANIMATIONS ── */
+.fade-up { opacity: 0; transform: translateY(30px); transition: opacity 0.7s ease, transform 0.7s ease; }
+.fade-up.visible { opacity: 1; transform: translateY(0); }
+</style>
+</head>
+<body>
+
+<!-- Sticky CTA -->
+<div class="sticky-cta" id="stickyCta">
+  <span class="sticky-cta-text">Ready to start the conversation?</span>
+  <a href="#signup" class="sticky-cta-btn">Get Your Copy</a>
+</div>
+
+<!-- NAV -->
+<nav>
+  <div class="logo">Growing Up <span>Together</span></div>
+  <div class="hamburger" role="button" aria-label="Open navigation menu" aria-expanded="false" tabindex="0" onclick="this.classList.toggle('open'); document.querySelector('nav ul').classList.toggle('show'); this.setAttribute('aria-expanded', this.classList.contains('open'));" onkeydown="if(event.key==='Enter'){this.click();}">
+    <span></span><span></span><span></span>
+  </div>
+  <ul>
+    <li><a href="#survey" onclick="closeMenu()">Survey</a></li>
+    <li><a href="#about" onclick="closeMenu()">About</a></li>
+    <li><a href="#lessons" onclick="closeMenu()">Lessons</a></li>
+    <li><a href="#cards" onclick="closeMenu()">Cards</a></li>
+    <li><a href="#talkingpoints" onclick="closeMenu()">Take Action</a></li>
+    <li><a href="#lead" onclick="closeMenu()">Lead</a></li>
+    <li><a href="#signup" onclick="closeMenu()">Get the Book</a></li>
+    <li><a href="#gpt" onclick="closeMenu()">Family GPT</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-tagline">A Book for This Moment</div>
+    <h1>The Jury Spoke.<br>Now It's <em>Our</em> Turn.</h1>
+    <p class="hero-sub">Two landmark verdicts won't save our children. Only we can do that&mdash;starting at the dinner table and finishing at the Capitol. <strong>Growing Up Together</strong> is the roadmap.</p>
+    <div class="hero-cta-row">
+      <a href="#survey" class="hero-cta">Take the Survey</a>
+      <a href="#signup" class="hero-cta secondary">Get Your Advance Copy &mdash; $0.99</a>
+    </div>
+    <p style="font-size: 0.8rem; color: rgba(255,255,255,0.5); margin-top: 1.5rem; letter-spacing: 0.05em;">Launching Summer 2026 &bull; Early readers get first access</p>
+  </div>
+  <div class="hero-scroll">&darr; Scroll to begin</div>
+</section>
+
+<!-- FEATURED VIDEO + INFOGRAPHIC (The Case) -->
+<section id="featured-video" style="background: var(--ink); padding: 4rem 2rem;">
+  <div class="section-inner" style="max-width: 900px;">
+    <div class="video-title" style="color: var(--gold); font-size: 1.4rem; margin-bottom: 1.5rem;">The False Finish Line: Reclaiming a Generation from Big Tech</div>
+    <div class="video-container">
+      <video controls preload="metadata" poster="explainer-video-poster.jpg">
+        <source src="explainer-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <!-- Beyond the Verdict Infographic -->
+    <div style="margin-top: 3rem; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.3);">
+      <picture>
+        <source srcset="beyond-the-verdict-graphic.webp" type="image/webp">
+        <img src="beyond-the-verdict-graphic.png" alt="Beyond the Verdict: A Roadmap to Reclaiming the Next Generation — 65% spike in girls' suicide rates, digital addiction by design, 4.6 hours daily exposure. Steps: 1. The Dinner Table, 2. The Local Village, 3. The Capitol." style="width: 100%; display: block;" loading="lazy">
+      </picture>
+    </div>
+  </div>
+</section>
+
+<!-- SURVEY -->
+<section id="survey">
+  <div class="section-inner">
+    <div class="section-label">Take the Survey</div>
+    <div class="section-title">Your Voice Matters</div>
+    <p class="survey-intro">We are building a movement, and it starts with understanding where families stand right now. Take two minutes. Your answers are anonymous and will help shape the national conversation.</p>
+    <div class="survey-layout">
+      <div>
+        <form class="survey-form" id="surveyForm">
+          <div class="survey-thanks-banner" id="surveyBanner">Thank you! Your voice is part of this movement.</div>
+          <div class="survey-question">
+            <div class="q-number">Question 1 of 7</div>
+            <h4>How concerned are you about social media's impact on children and families?</h4>
+            <div class="survey-options">
+              <label><input type="radio" name="q1" value="extremely"> Extremely concerned&mdash;it keeps me up at night</label>
+              <label><input type="radio" name="q1" value="very"> Very concerned</label>
+              <label><input type="radio" name="q1" value="somewhat"> Somewhat concerned</label>
+              <label><input type="radio" name="q1" value="not_very"> Not very concerned</label>
+            </div>
+          </div>
+          <div class="survey-question">
+            <div class="q-number">Question 2 of 7</div>
+            <h4>Do you believe legislation alone can solve the problem of social media harm to children?</h4>
+            <div class="survey-options">
+              <label><input type="radio" name="q2" value="yes"> Yes&mdash;we need stronger laws and enforcement</label>
+              <label><input type="radio" name="q2" value="helps"> It helps, but it is not enough on its own</label>
+              <label><input type="radio" name="q2" value="no"> No&mdash;families and communities have to lead</label>
+              <label><input type="radio" name="q2" value="unsure"> I am not sure</label>
+            </div>
+          </div>
+          <div class="survey-question">
+            <div class="q-number">Question 3 of 7</div>
+            <h4>How often does your family have open conversations about what your children encounter online?</h4>
+            <div class="survey-options">
+              <label><input type="radio" name="q3" value="daily"> Daily or almost daily</label>
+              <label><input type="radio" name="q3" value="weekly"> A few times a week</label>
+              <label><input type="radio" name="q3" value="rarely"> Rarely&mdash;we don't know how to start</label>
+              <label><input type="radio" name="q3" value="never"> Never&mdash;it hasn't come up</label>
+            </div>
+          </div>
+          <div class="survey-question">
+            <div class="q-number">Question 4 of 7</div>
+            <h4>If social media were banned for children under 16 tomorrow, do you think parents would find workarounds?</h4>
+            <div class="survey-options">
+              <label><input type="radio" name="q4" value="most"> Yes&mdash;most parents would</label>
+              <label><input type="radio" name="q4" value="some"> Some would, some wouldn't</label>
+              <label><input type="radio" name="q4" value="few"> No&mdash;most parents would comply</label>
+            </div>
+          </div>
+          <div class="survey-question">
+            <div class="q-number">Question 5 of 7</div>
+            <h4>Do you believe the tech companies should be held financially liable for harm to children?</h4>
+            <div class="survey-options">
+              <label><input type="radio" name="q5" value="absolutely"> Absolutely&mdash;they knew what they were building</label>
+              <label><input type="radio" name="q5" value="partially"> Partially&mdash;but families share responsibility too</label>
+              <label><input type="radio" name="q5" value="no"> No&mdash;parents are ultimately responsible</label>
+            </div>
+          </div>
+          <div class="survey-question">
+            <div class="q-number">Question 6 of 7</div>
+            <h4>Would you be willing to take this conversation into your community?</h4>
+            <div class="survey-options">
+              <label><input type="radio" name="q6" value="already"> I already am</label>
+              <label><input type="radio" name="q6" value="yes"> Yes&mdash;I just need a place to start</label>
+              <label><input type="radio" name="q6" value="maybe"> Maybe&mdash;if I knew others would join me</label>
+              <label><input type="radio" name="q6" value="no"> Probably not</label>
+            </div>
+          </div>
+          <div class="survey-question">
+            <div class="q-number">Question 7 of 7</div>
+            <h4>What is the single biggest obstacle to protecting children in the digital age?</h4>
+            <textarea class="survey-textarea" name="q7" placeholder="In your own words..."></textarea>
+          </div>
+          <button type="submit" class="survey-submit" id="surveySubmit">Submit Your Answers</button>
+
+          <div class="survey-share-section" id="surveyShareSection">
+            <h3>Share This Survey</h3>
+            <p>Help us reach more families. Share this survey with your community.</p>
+            <div class="survey-share-buttons">
+              <button type="button" class="survey-share-btn" id="copyLinkBtn">Copy Link</button>
+              <button type="button" class="survey-share-btn" id="shareEmailBtn">Share via Email</button>
+            </div>
+            <div class="survey-share-feedback" id="shareFeedback"></div>
+          </div>
+        </form>
+
+        <div class="survey-thanks" id="surveyThanks">
+          <h3 style="font-family: 'Playfair Display', serif; font-size: 1.8rem; color: var(--ink); margin-bottom: 1rem;">Thank You.</h3>
+          <p>Your voice is part of this. The conversation has started.</p>
+          <div id="surveyEmailCapture" style="margin-top: 1.5rem; background: #fff; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); border-left: 4px solid var(--gold);">
+            <p style="font-weight: 600; color: var(--ink); margin-bottom: 0.75rem;">Stay in the loop.</p>
+            <p style="font-size: 0.9rem; color: var(--muted); margin-bottom: 1rem;">Get updates as the movement grows &mdash; new resources, launch dates, and ways to get involved.</p>
+            <div style="display: flex; gap: 0.5rem;">
+              <input type="email" id="surveyFollowEmail" placeholder="Your email address" style="flex: 1; padding: 0.7rem 1rem; border: 1px solid #ddd; border-radius: 6px; font-size: 0.9rem;">
+              <button type="button" onclick="submitSurveyEmail()" style="background: var(--ink); color: #fff; border: none; padding: 0.7rem 1.25rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; cursor: pointer; white-space: nowrap;">Count Me In</button>
+            </div>
+            <div id="surveyEmailThanks" style="display: none; color: var(--green); font-weight: 600; margin-top: 0.75rem;">You&rsquo;re in. We&rsquo;ll keep you posted.</div>
+          </div>
+          <p style="margin-top: 1.5rem;"><a href="#lead" style="color: var(--accent); font-weight: 600; font-size: 1.1rem;">Ready to lead? Sign up to organize your community &rarr;</a></p>
+        </div>
+      </div>
+
+      <!-- LIVE RESULTS PANEL -->
+      <div class="results-panel" id="resultsPanel">
+        <h3>Live Results</h3>
+        <div class="results-subtitle">Updated as people respond</div>
+        <div class="results-count"><span id="totalResponses">0</span> responses so far</div>
+        <div id="resultsContainer"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-inner">
+    <div class="section-label">The Story Behind the Book</div>
+    <div class="section-title">Why This Book. Why Now.</div>
+    <div class="about-grid">
+      <div class="about-author">
+        <div class="author-photo-wrap">
+          <picture>
+            <source srcset="rod-wilson-author.webp" type="image/webp">
+            <img src="rod-wilson-author.jpg" alt="Dr. Rod Wilson — Author of Growing Up Together" class="author-photo" loading="lazy">
+          </picture>
+        </div>
+        <h3>Rod Wilson, Ph.D.</h3>
+        <div class="credentials">Communications Specialist<br>Drucker School of Management Advisory Board</div>
+        <p>For four decades, Dr. Rod Wilson has helped organizations and communities navigate the conversations others are afraid to have. As a nationally recognized communications strategist and government affairs expert, he has conducted hundreds of focus groups and media workshops, helped establish over 200 businesses and nonprofits, and advised institutions at every level&mdash;from neighborhood coalitions to federal policy.</p>
+        <p>He serves on the Advisory Board of the Drucker School of Management at Claremont Graduate University, where Peter Drucker himself taught that a functioning society is as essential as the air we breathe. Rod took that lesson to heart.</p>
+        <p>Now he is turning forty years of experience toward the most urgent conversation of our time: how we raise the next generation in a world that was not designed with their well-being in mind.</p>
+      </div>
+      <div class="about-book">
+        <h3>Growing Up Together</h3>
+        <div class="subtitle">How Families Can Stay Connected in a World of Screens, Social Media, and AI</div>
+        <p>This is not another book about screen time limits or social media bans. It is a book about what comes after the verdict, after the fine, after the outrage fades. It is about what happens when families stop reacting and start building.</p>
+        <p><em>Growing Up Together</em> argues that the path forward begins with conversation&mdash;not legislation. From the kitchen table to the PTA to City Hall to Congress, it maps a clear escalation that puts power back where it belongs: in the hands of families and communities.</p>
+        <p>The book is paired with <strong>Make the Moments Matter</strong>&mdash;a guided card deck that gives families a practical way to start real conversations, in any moment, on any day. It also introduces the <strong>Family GPT</strong>, a private AI-powered tool built around your family&rsquo;s own values and boundaries, designed to help you navigate the digital world together.</p>
+        <div class="highlight-box">
+          <p>&ldquo;A human being must have a functioning society just as he must have air to breathe.&rdquo;</p>
+          <div class="attribution">&mdash; Peter Drucker</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Book Video -->
+    <div class="video-section" style="margin-top: 3rem;">
+      <div class="video-title">The Architecture of the Divide</div>
+      <div class="video-container">
+        <video controls preload="metadata" poster="architecture-poster.jpg">
+          <source src="The_Architecture_of_the_Divide.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+
+    <!-- Book Infographic -->
+    <div style="margin-top: 3rem; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+      <picture>
+        <source srcset="infographic for growing up together.webp" type="image/webp">
+        <img src="infographic for growing up together.png" alt="Bridging the Digital Divide: From Screen Tension to Family Connection" style="width: 100%; display: block;" loading="lazy">
+      </picture>
+    </div>
+
+    <!-- Presentation Slide Gallery -->
+    <div class="slide-gallery" id="slideGallery">
+      <div class="slide-gallery-header">
+        <div class="slide-gallery-title">Inside the Book</div>
+        <div class="slide-gallery-subtitle">Key concepts from Growing Up Together</div>
+      </div>
+      <div class="slide-viewer">
+        <button class="slide-nav-btn prev" onclick="changeSlide(-1)" aria-label="Previous slide">&#8249;</button>
+        <div class="slide-display">
+          <img id="slideImage" src="Growing up together presentation_Page_01.webp" alt="Presentation slide" loading="lazy">
+        </div>
+        <button class="slide-nav-btn next" onclick="changeSlide(1)" aria-label="Next slide">&#8250;</button>
+        <div class="slide-counter"><span id="slideNum">1</span> / 15</div>
+        <div class="slide-thumbnails" id="slideThumbs"></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- SOCIAL PROOF -->
+<section id="proof" style="background: #f0ebe4; padding: 4rem 2rem;">
+  <div class="section-inner" style="text-align: center;">
+    <div class="section-label">What People Are Saying</div>
+    <div class="section-title">Early Readers &amp; Supporters</div>
+    <div class="testimonial-grid">
+      <div class="testimonial-card">
+        <div class="testimonial-quote">&ldquo;This is the book I wish existed when my kids were young. It doesn&rsquo;t lecture. It listens. And it gives you the tools to do the same.&rdquo;</div>
+        <div class="testimonial-author">&mdash; Early Reader</div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-quote">&ldquo;I used three of the conversation cards at dinner last night. My fourteen-year-old talked for twenty minutes. That has never happened.&rdquo;</div>
+        <div class="testimonial-author">&mdash; Early Reader</div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-quote">&ldquo;Rod Wilson has spent forty years learning how to get people talking. This book is the distillation of everything he knows&mdash;and it could not have come at a more important time.&rdquo;</div>
+        <div class="testimonial-author">&mdash; Early Reader</div>
+      </div>
+    </div>
+    <p style="font-family: 'Inter', sans-serif; font-size: 0.8rem; color: var(--muted); margin-top: 2rem; font-style: italic;">Have an early copy? <a href="mailto:lovestodive@gmail.com" style="color: var(--accent);">Share your thoughts</a> and we&rsquo;ll feature them here.</p>
+  </div>
+</section>
+
+<!-- TOP 10 LESSONS -->
+<section id="lessons">
+  <div class="section-inner">
+    <div class="section-label">The Truths No One Is Saying Out Loud</div>
+    <div class="section-title">Ten Lessons from Growing Up Together</div>
+    <p class="lessons-intro">Every lesson in this book was earned the hard way&mdash;in living rooms, boardrooms, and communities across America. These are not theories. They are truths.</p>
+    <div class="lesson-list">
+      <div class="lesson-item"><div class="lesson-number">01</div><div class="lesson-text"><strong>The problem is not technology. It is silence.</strong> Families that talk about what their children see online produce kids who can think critically. Families that avoid the conversation leave that job to the algorithm.</div></div>
+      <div class="lesson-item"><div class="lesson-number">02</div><div class="lesson-text"><strong>Bans and fines will not save us.</strong> Eight states have restricted minors' access to social media. Every one of them underestimates a thirteen-year-old with a VPN. Enforcement without societal buy-in is theater.</div></div>
+      <div class="lesson-item"><div class="lesson-number">03</div><div class="lesson-text"><strong>The people who built it won't let their own kids use it.</strong> Steve Jobs, Bill Gates, and former Facebook executives all restricted their children's access to the very products they created. That should tell you everything.</div></div>
+      <div class="lesson-item"><div class="lesson-number">04</div><div class="lesson-text"><strong>We took everything away and offered nothing to replace it.</strong> You cannot remove the phone, the app, and the connection without giving young people something better. Conversation is that something better.</div></div>
+      <div class="lesson-item"><div class="lesson-number">05</div><div class="lesson-text"><strong>A functioning society requires functioning families.</strong> Peter Drucker's insight is more urgent now than when he wrote it. If the family unit breaks, everything built on top of it&mdash;schools, communities, institutions&mdash;breaks with it.</div></div>
+      <div class="lesson-item"><div class="lesson-number">06</div><div class="lesson-text"><strong>Change starts at the dinner table.</strong> Not at a congressional hearing. Not in a courtroom. At your table, tonight, with your children. Ask them what they understand&mdash;not how they feel.</div></div>
+      <div class="lesson-item"><div class="lesson-number">07</div><div class="lesson-text"><strong>One voice has always been enough.</strong> MADD rewrote the laws of fifty states because one mother refused to be silent. Every national movement began with a single person who decided the status quo was unacceptable.</div></div>
+      <div class="lesson-item"><div class="lesson-number">08</div><div class="lesson-text"><strong>The escalation is everything.</strong> Kitchen table to church to PTA to sports league to City Hall to the state capitol to Congress. Old school. Neighbor to neighbor. That is how a society decides what it will and will not tolerate.</div></div>
+      <div class="lesson-item"><div class="lesson-number">09</div><div class="lesson-text"><strong>AI is not the enemy. Ignorance is.</strong> Artificial intelligence is not going away. The families that learn to use it together&mdash;guided, intentional, eyes wide open&mdash;will thrive. The families that pretend it doesn't exist will not.</div></div>
+      <div class="lesson-item"><div class="lesson-number">10</div><div class="lesson-text"><strong>It takes a village. The village has to show up.</strong> Come together or sit back and watch it all unfold. There is no third option. The next generation is watching to see which one we choose.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- MAKE THE MOMENTS MATTER CARDS -->
+<section id="cards" class="mtmm-section">
+  <div class="mtmm-inner">
+    <div class="mtmm-header">
+      <div class="mtmm-label">A Tool to Bring Your Family Back Together</div>
+      <div class="mtmm-title">Make the Moments Matter</div>
+      <div class="mtmm-subtitle">Somewhere along the way, families stopped talking. Not because they stopped caring&mdash;but because the world got louder than the dinner table.<br><br>Make the Moments Matter is a guided journey back to real conversation. At the dinner table. In the car on the way to school. Waiting for practice to start. Before bed. Any moment you have a few minutes together, pull a card and open a door&mdash;a question, a game, a shared experience, a moment of honesty your family hasn&rsquo;t had yet.<br><br>It goes where you go. It fits in a pocket, a glove box, a backpack. Because the moments that matter most aren&rsquo;t scheduled&mdash;they&rsquo;re seized.<br><br>By the time you reach the last card, you won&rsquo;t need them anymore. The conversations will come naturally. The listening will be instinctive.<br><br>And here is what no one tells you: your children are watching how you show up. When you sit down, pull a card, and listen&mdash;really listen&mdash;they don&rsquo;t just hear the question. They learn what it looks like to care. They absorb it. And one day, without thinking about it, they will sit down with their own children and do the same thing. Not because someone told them to. Because you showed them how.<br><br>This is not a card deck. It is a gift to your grandchildren. The ones who aren&rsquo;t born yet. The ones who will grow up knowing what it feels like to be heard&mdash;because their parents learned it at your table. The art of communication and caring, passed from your family to theirs, generation after generation.</div>
+    </div>
+
+    <!-- Category Guide -->
+    <div class="category-guide">
+      <div class="category-guide-title">Every card is a step on the journey</div>
+      <div class="category-grid">
+        <div class="category-item">
+          <div class="category-dot" style="background: #c49a3c;"></div>
+          <div class="category-name">Daily Life &amp; Routines</div>
+        </div>
+        <div class="category-item">
+          <div class="category-dot" style="background: #4a7c59;"></div>
+          <div class="category-name">Family &amp; Home</div>
+        </div>
+        <div class="category-item">
+          <div class="category-dot" style="background: #3a8a8a;"></div>
+          <div class="category-name">Friends &amp; Belonging</div>
+        </div>
+        <div class="category-item">
+          <div class="category-dot" style="background: #4a6fa5;"></div>
+          <div class="category-name">Screens, Social Media &amp; AI</div>
+        </div>
+        <div class="category-item">
+          <div class="category-dot" style="background: #c27a3a;"></div>
+          <div class="category-name">Confidence, Effort &amp; Growth</div>
+        </div>
+        <div class="category-item">
+          <div class="category-dot" style="background: #7b5ea7;"></div>
+          <div class="category-name">Choices, Character &amp; the Future</div>
+        </div>
+        <div class="category-item">
+          <div class="category-dot" style="background: #6b7a3a;"></div>
+          <div class="category-name">Community &amp; the Wider World</div>
+        </div>
+        <div class="category-item">
+          <div class="category-dot" style="background: #a75a7a;"></div>
+          <div class="category-name">Stories, Memories &amp; Imagination</div>
+        </div>
+        <div class="category-item">
+          <div class="category-dot" style="background: #b54a4a;"></div>
+          <div class="category-name">Games</div>
+        </div>
+        <div class="category-item">
+          <div class="category-dot" style="background: #4a8a4a;"></div>
+          <div class="category-name">Activities</div>
+        </div>
+        <div class="category-item">
+          <div class="category-dot" style="background: #2c3e6b;"></div>
+          <div class="category-name">Milestones</div>
+        </div>
+        <div class="category-item">
+          <div class="category-dot" style="background: #7a5aaa;"></div>
+          <div class="category-name">Wild Cards</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Interactive Card Draw Area -->
+    <div class="card-draw-area">
+      <div class="draw-button-wrapper">
+        <button class="draw-card-btn" onclick="drawCard()" aria-label="Draw a random conversation card from the Make the Moments Matter deck">Draw a Card</button>
+      </div>
+      <div class="card-display-wrapper">
+        <div class="flip-hint">Click the card to flip it</div>
+        <div class="card-flip-container">
+          <div class="card-flip-inner" id="displayCardFlip">
+            <div class="card-face card-front empty">
+              <div style="color: var(--muted); font-family: 'Source Serif 4', serif;">Click "Draw a Card" to get started</div>
+            </div>
+            <div class="card-face card-back">
+              <div style="color: var(--muted); text-align: center;">Back side</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Teaser Row -->
+    <div class="teaser-row">
+      <div class="teaser-label">A Glimpse Inside the Deck</div>
+      <div class="teaser-cards" id="teaserCardsContainer"></div>
+    </div>
+
+    <!-- Purchase CTA / Signup -->
+    <div class="mtmm-purchase-box">
+      <div class="mtmm-purchase-title">Get the Complete Deck</div>
+      <div class="mtmm-purchase-desc">The printed card deck delivered to your door&mdash;plus full access to the digital companion app. Everything your family needs to start the journey.</div>
+      <div class="mtmm-price">$19.99</div>
+      <div id="cardSignupForm" class="card-signup-form">
+        <input type="text" id="cardName" placeholder="Your name" required>
+        <input type="email" id="cardEmail" placeholder="Your email" required>
+        <button type="button" class="order-now-btn" onclick="submitCardSignup()">Reserve My Deck</button>
+      </div>
+      <div id="cardThankYou" class="card-thank-you" style="display: none;">
+        <div class="card-thank-you-icon">&#10003;</div>
+        <div class="card-thank-you-text">You&rsquo;re on the list. We&rsquo;ll let you know the moment the deck is ready to ship.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TALKING POINTS -->
+<section id="talkingpoints">
+  <div class="section-inner">
+    <div class="section-label">Take Action</div>
+    <div class="section-title">How to Bring This to Your Community</div>
+    <p style="font-family: 'Source Serif 4', serif; font-size: 1.1rem; line-height: 1.8; color: var(--text); margin-bottom: 2.5rem; max-width: 700px;">You do not need permission. You do not need a title. You need a room, a few people who care, and something to say. Here are the key themes and ready-to-use language for every setting.</p>
+
+    <div class="tp-themes">
+      <div class="tp-theme">
+        <div class="tp-icon">1</div>
+        <div class="tp-content">
+          <h4>This Is a Communication Crisis, Not a Technology Problem</h4>
+          <p>The issue is not the device. It is that we stopped talking to each other about what the device is doing to our families. Every community conversation should start here.</p>
+        </div>
+      </div>
+      <div class="tp-theme">
+        <div class="tp-icon">2</div>
+        <div class="tp-content">
+          <h4>Legislation Without Community Buy-In Is Theater</h4>
+          <p>Bans and fines make headlines. They do not change behavior. Real change requires a society that agrees on what it is willing to tolerate&mdash;and that starts with us, not Congress.</p>
+        </div>
+      </div>
+      <div class="tp-theme">
+        <div class="tp-icon">3</div>
+        <div class="tp-content">
+          <h4>We Took Everything Away and Offered Nothing to Replace It</h4>
+          <p>Every proposal is about restriction. Nobody is talking about what we give young people instead. Conversation, critical thinking, and community are the replacement.</p>
+        </div>
+      </div>
+      <div class="tp-theme">
+        <div class="tp-icon">4</div>
+        <div class="tp-content">
+          <h4>One Voice Can Change Everything</h4>
+          <p>MADD, John Walsh, Erin Brockovich&mdash;every national movement started with one person who refused to accept the status quo. You can be that person in your community.</p>
+        </div>
+      </div>
+      <div class="tp-theme">
+        <div class="tp-icon">5</div>
+        <div class="tp-content">
+          <h4>The Escalation Is the Strategy</h4>
+          <p>Dinner table to church to PTA to City Hall to Congress. That is the path. Old school. Neighbor to neighbor. Face to face. This is how societies have always changed.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="tp-scripts-title">Ways to Start the Conversation</div>
+    <p class="tp-scripts-sub">Click to expand. Make these your own.</p>
+
+    <div class="tp-script-card" onclick="this.classList.toggle('open')">
+      <div class="tp-script-header">
+        <h4>At a PTA or School Board Meeting</h4>
+        <div style="display:flex;align-items:center;gap:0.75rem;"><span class="tp-script-venue">PTA / School</span><span class="tp-script-toggle">&#9660;</span></div>
+      </div>
+      <div class="tp-script-body">
+        <p>Opens a discussion at a PTA meeting, parent night, or school board session. About 90 seconds.</p>
+        <div class="script-text">
+          <p>This affects every family in this room. This week, two juries&mdash;one in New Mexico, one in Los Angeles&mdash;found social media companies liable for harming children. The jury in LA found they acted with malice. These are historic verdicts. But verdicts do not raise our children. We do.</p>
+          <p>Ninety-five percent of our teenagers are on social media, averaging nearly five hours a day. Depression among young people is up 33 percent. The suicide rate for girls is up 65 percent. And the companies that built these platforms? Their own executives would not let their children use them.</p>
+          <p>The question is simple: when was the last time we sat down with our children and talked&mdash;really talked&mdash;about what they see online and how it is shaping who they are becoming? That conversation is the beginning. What happens next is up to all of us.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="tp-script-card" onclick="this.classList.toggle('open')">
+      <div class="tp-script-header">
+        <h4>At Church or a Faith Community</h4>
+        <div style="display:flex;align-items:center;gap:0.75rem;"><span class="tp-script-venue">Faith Groups</span><span class="tp-script-toggle">&#9660;</span></div>
+      </div>
+      <div class="tp-script-body">
+        <p>For a church announcement, small group, or community of faith. Adjust the language for your tradition.</p>
+        <div class="script-text">
+          <p>Our families are in trouble. Not because of a lack of faith, but because something has come into our homes that we were not prepared for. The average teenager spends more time each day on social media than in school, at the dinner table, and in this building combined.</p>
+          <p>We teach our young people values. But the algorithm is teaching them something else&mdash;and it has their attention for five hours a day. The companies that built these platforms knew what they were doing. Two juries just confirmed it.</p>
+          <p>The answer starts here, in community. Not with legislation, but with conversation. If every family in this room committed to one honest conversation this week about what their children are encountering online, that would be the beginning of something powerful. A functioning society starts with functioning families. Let us start with ours.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="tp-script-card" onclick="this.classList.toggle('open')">
+      <div class="tp-script-header">
+        <h4>At a Sports League or Youth Organization</h4>
+        <div style="display:flex;align-items:center;gap:0.75rem;"><span class="tp-script-venue">Sports / Youth</span><span class="tp-script-toggle">&#9660;</span></div>
+      </div>
+      <div class="tp-script-body">
+        <p>For coaches, league gatherings, or youth organization events. Short, direct, action-oriented.</p>
+        <div class="script-text">
+          <p>We spend a lot of time teaching these kids how to compete, how to work as a team, how to handle winning and losing. But there is a competition happening off the field that we are losing badly.</p>
+          <p>Social media platforms were designed to capture attention. They are winning. Our kids are averaging five hours a day on these apps. One in five high school students has seriously considered ending their own life. These are not statistics. These are our players, our kids, sitting right out there.</p>
+          <p>We are already a community. We already show up for each other. Talk to your kids about what is happening online. Not as a lecture. As a conversation. If you are not sure how to start, there are resources that can help.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="tp-script-card" onclick="this.classList.toggle('open')">
+      <div class="tp-script-header">
+        <h4>At Town Council or City Hall</h4>
+        <div style="display:flex;align-items:center;gap:0.75rem;"><span class="tp-script-venue">Government</span><span class="tp-script-toggle">&#9660;</span></div>
+      </div>
+      <div class="tp-script-body">
+        <p>For public comment periods, town halls, or meetings with elected officials.</p>
+        <div class="script-text">
+          <p>This week, juries in two states held social media companies liable for harming children. A New Mexico jury awarded $375 million. A Los Angeles jury found Meta and YouTube acted with malice and awarded $6 million in a bellwether case representing 2,000 more families. Both companies have said they will appeal.</p>
+          <p>While those appeals play out&mdash;which could take years&mdash;our children cannot wait. We are facing a youth mental health crisis driven in part by platforms that were engineered to be addictive. Families are already coming together to address this through conversation and community action. They need to know their local leaders hear them.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="tp-script-card" onclick="this.classList.toggle('open')">
+      <div class="tp-script-header">
+        <h4>Neighbor to Neighbor</h4>
+        <div style="display:flex;align-items:center;gap:0.75rem;"><span class="tp-script-venue">One-on-One</span><span class="tp-script-toggle">&#9660;</span></div>
+      </div>
+      <div class="tp-script-body">
+        <p>No audience needed. Just one other parent, one conversation.</p>
+        <div class="script-text">
+          <p>Did you see those verdicts against Meta and YouTube this week? Two juries found them liable for harming kids. It got me thinking about how much time our kids spend on these platforms and whether we really know what they are seeing.</p>
+          <p>I have been trying to have more conversations at home about it. Not taking the phone away&mdash;just talking. It is harder than I expected. But something stuck with me: the problem is not the technology, it is the silence. If we are not talking to our kids about what they see online, the algorithm is raising them for us.</p>
+          <p>Would you want to get a few families together and just talk about it? Nothing formal. Just a conversation.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LEAD ORGANIZER -->
+<section id="lead">
+  <div class="section-inner">
+    <div class="section-label">Join the Movement</div>
+    <div class="section-title">I Want to Help Lead This</div>
+    <p class="lead-intro">Every movement needs people who are willing to go first. If you want to organize your community&mdash;whether that is a neighborhood gathering, a PTA conversation, a church group, or something bigger&mdash;sign up here. We will give you the tools, the talking points, and the support to make it happen.</p>
+    <form class="lead-form" id="leadForm">
+      <div class="lead-form-row">
+        <input type="text" name="first" placeholder="First name" required>
+        <input type="text" name="last" placeholder="Last name" required>
+      </div>
+      <div class="lead-form-row">
+        <input type="email" name="email" placeholder="Email address" required>
+        <input type="text" name="zip" placeholder="Zip code" required>
+      </div>
+      <div class="lead-form-row">
+        <select name="org" required>
+          <option value="" disabled selected>Your organization type</option>
+          <option value="pta">PTA / School</option>
+          <option value="church">Church / Faith Community</option>
+          <option value="sports">Sports League / Youth Organization</option>
+          <option value="neighborhood">Neighborhood Group</option>
+          <option value="workplace">Workplace</option>
+          <option value="government">Local Government / Civic Group</option>
+          <option value="other">Other</option>
+        </select>
+        <select name="reach" required>
+          <option value="" disabled selected>How many people could you reach?</option>
+          <option value="10">Up to 10 people</option>
+          <option value="25">10&ndash;25 people</option>
+          <option value="50">25&ndash;50 people</option>
+          <option value="100">50&ndash;100 people</option>
+          <option value="100+">More than 100 people</option>
+        </select>
+      </div>
+      <textarea class="full-width" name="help" placeholder="What kind of support would help you most? (e.g., materials to hand out, help organizing an event, connecting with other leaders in your area...)"></textarea>
+      <button type="submit" class="lead-submit">Count Me In</button>
+    </form>
+    <div class="lead-thanks" id="leadThanks">
+      <h3>You Are Part of This Now.</h3>
+      <p>We will be in touch with everything you need to get started in your community. The village just got stronger.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SIGNUP -->
+<section id="signup">
+  <div class="section-inner" style="max-width: 700px;">
+    <div class="section-label">Be First</div>
+    <div class="section-title" style="color: #fff;">Get Your Advance Copy</div>
+    <p style="font-family: 'Source Serif 4', serif; font-size: 1.1rem; color: rgba(255,255,255,0.85); margin-bottom: 2rem; text-align: center;">Be among the first to read <em>Growing Up Together</em> before it hits shelves. Reserve your advance digital copy today.</p>
+
+    <!-- Pricing Options -->
+    <div class="pricing-options">
+      <div class="pricing-card" id="priceBook" onclick="selectPricing('book')">
+        <div class="pricing-badge">The Book</div>
+        <div class="pricing-amount">$0.99</div>
+        <div class="pricing-desc">Advance digital copy of<br>Growing Up Together</div>
+        <div class="pricing-radio"><span class="radio-dot active"></span></div>
+      </div>
+      <div class="pricing-card featured" id="priceBundle" onclick="selectPricing('bundle')">
+        <div class="pricing-best">Best Value</div>
+        <div class="pricing-badge">The Complete Package</div>
+        <div class="pricing-amount">$19.99</div>
+        <div class="pricing-desc">The ebook + Make the Moments Matter<br>printed card deck + digital companion app</div>
+        <div class="pricing-radio"><span class="radio-dot"></span></div>
+      </div>
+    </div>
+
+    <form class="signup-form" id="signupForm" style="margin-top: 2rem;">
+      <input type="text" name="name" placeholder="Your name" required>
+      <input type="email" name="email" placeholder="Your email address" required>
+      <input type="hidden" name="package" id="packageType" value="book">
+      <button type="submit" class="signup-btn">Reserve My Copy</button>
+    </form>
+    <div id="signupThankYou" style="display: none; text-align: center; padding: 2rem 0;">
+      <div style="font-size: 2.5rem; color: var(--gold); margin-bottom: 0.75rem;">&#10003;</div>
+      <div style="font-family: 'Playfair Display', serif; font-weight: 700; font-size: 1.3rem; color: #fff; margin-bottom: 0.5rem;">You&rsquo;re In.</div>
+      <div style="font-family: 'Source Serif 4', serif; font-size: 1rem; color: rgba(255,255,255,0.8); line-height: 1.7;">We&rsquo;ll notify you the moment your copy is ready. Welcome to the movement.</div>
+    </div>
+    <p class="signup-note">No charge today. You&rsquo;ll be notified when your order is ready. Your information is never shared.</p>
+    <p class="signup-note" style="margin-top: 0.5rem; color: rgba(255,255,255,0.45);"><strong style="color: rgba(255,255,255,0.7);">Launching Summer 2026.</strong> Early readers receive their copies before anyone else&mdash;plus exclusive access to the Growing Up Together community.</p>
+  </div>
+</section>
+
+<!-- FAMILY GPT -->
+<section id="gpt">
+  <div class="section-inner">
+    <div class="section-label">Introducing</div>
+    <div class="section-title">The Family GPT</div>
+    <p style="font-family: 'Source Serif 4', serif; font-size: 1.1rem; line-height: 1.8; color: var(--text); margin-bottom: 1rem; max-width: 700px;">Families don't struggle because they never reach understanding. They struggle because understanding fades. The Family GPT is a private, family-defined reference &mdash; a place to capture the language, values, boundaries, and insights your family has already worked to build, so they don't disappear when things get hard. Think of it as memory, not authority.</p>
+
+    <!-- Privacy Promise -->
+    <div style="background: linear-gradient(135deg, var(--ink) 0%, #16213e 100%); border-radius: 8px; padding: 1.75rem 2rem; margin-bottom: 2rem; max-width: 700px; border-left: 4px solid var(--gold);">
+      <p style="font-family: 'Inter', sans-serif; font-weight: 700; font-size: 0.75rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.75rem;">Your Family. Your Data. Completely Private.</p>
+      <p style="font-family: 'Source Serif 4', serif; font-size: 0.95rem; line-height: 1.7; color: rgba(255,255,255,0.85); margin-bottom: 0.75rem;">When you create your own Family GPT, it belongs to <strong style="color:#fff;">you and only you</strong>. No one else can see it, access it, or view your conversations. Your family's details, challenges, and discussions are never shared, never stored on our servers, and never used to train AI models. It is as private as the conversation at your own kitchen table.</p>
+      <p style="font-family: 'Source Serif 4', serif; font-size: 0.95rem; line-height: 1.7; color: rgba(255,255,255,0.85); margin: 0;">You decide what goes in. You decide who has access. You can delete it at any time. This is your family's tool &mdash; built by you, for you, and seen by no one else.</p>
+    </div>
+
+    <p style="font-family: 'Source Serif 4', serif; font-size: 1.05rem; line-height: 1.7; color: var(--text); margin-bottom: 2rem; max-width: 700px;">Give it a try with the Mitchell family below &mdash; this is a demo to show you how it works. Meet the family, then ask a question. Click one of the sample scenarios or type your own. When you are ready, the book shows you step-by-step how to create a <strong>completely private</strong> Family GPT for <em>your</em> family.</p>
+
+    <!-- Family Profile Card -->
+    <div class="family-profile-card">
+      <div class="family-members">
+        <div class="family-member">
+          <div class="family-member-icon">👨</div>
+          <div class="family-member-content">
+            <h4>David</h4>
+            <div class="role">Father, 42 &bull; Management Executive</div>
+            <p>Makes hundreds of decisions at work every day. Involved in some kids' activities but can't always be there.</p>
+          </div>
+        </div>
+        <div class="family-member">
+          <div class="family-member-icon">👩</div>
+          <div class="family-member-content">
+            <h4>Sarah</h4>
+            <div class="role">Mother, 40 &bull; Family Manager</div>
+            <p>The glue of the family. Constantly worried about the kids. Tries to track their social media but challenged by technology the kids use to run circles around her.</p>
+          </div>
+        </div>
+        <div class="family-member">
+          <div class="family-member-icon">👧</div>
+          <div class="family-member-content">
+            <h4>Maya</h4>
+            <div class="role">Daughter, 13 &bull; Teen</div>
+            <p>Active, athletic, popular, opinionated. Slightly spoiled. Challenges authority regularly. Pushes boundaries.</p>
+          </div>
+        </div>
+        <div class="family-member">
+          <div class="family-member-icon">👦</div>
+          <div class="family-member-content">
+            <h4>Ethan</h4>
+            <div class="role">Son, 10 &bull; Child</div>
+            <p>Quiet, reserved. More of an isolationist. Doesn't easily communicate face-to-face. Prefers smartphone and social media over in-person conversation.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Chat Interface -->
+    <div class="chat-interface" id="chatInterface">
+      <div class="chat-header">
+        <div class="chat-dot r"></div>
+        <div class="chat-dot y"></div>
+        <div class="chat-dot g"></div>
+        <div class="chat-header-title">Family GPT — The Mitchell Family</div>
+      </div>
+      <div class="chat-messages" id="chatMessages">
+        <div class="chat-message ai">
+          <div class="chat-avatar ai">AI</div>
+          <div class="chat-bubble">Welcome, Mitchell Family. I'm here to support your family's conversations &mdash; not to speak for anyone or make decisions for you. Think of me as memory, not authority. I know David, Sarah, Maya, and Ethan. Click a scenario below or type your own question.</div>
+        </div>
+      </div>
+      <div class="chat-input-area">
+        <div style="flex: 1; display: flex; flex-direction: column; gap: 0.75rem; width: 100%;">
+          <div class="chat-suggestions" id="chatSuggestions">
+            <div class="chat-suggestions-label">Click a scenario to try it:</div>
+            <button type="button" class="chat-suggestion" data-msg="maya-dinner">&#9654; Maya won't put her phone down at dinner</button>
+            <button type="button" class="chat-suggestion" data-msg="ethan-online">&#9654; How do I talk to Ethan about what he's seeing online?</button>
+            <button type="button" class="chat-suggestion" data-msg="david-tired">&#9654; David is too tired to engage after work</button>
+            <button type="button" class="chat-suggestion" data-msg="sarah-found">&#9654; Sarah found something concerning on Maya's phone</button>
+          </div>
+          <div style="display: flex; gap: 0.75rem;">
+            <input type="text" class="chat-input" id="chatInput" placeholder="Ask the Family GPT...">
+            <button type="button" class="chat-send" id="chatSendBtn">Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Create Your Own CTA -->
+    <div class="gpt-cta-section">
+      <h3>Ready to create a private Family GPT for YOUR family?</h3>
+      <p>The book walks you through creating your own &mdash; completely private, completely yours. No one else sees your family's information. Customize it for your own members, dynamics, and challenges. It stays between you and your family, forever.</p>
+      <a href="#signup" class="gpt-cta">Get the Book to Build Your Private Family GPT</a>
+    </div>
+  </div>
+</section>
+
+<!-- ADMIN PANEL -->
+<section id="adminSection">
+  <div class="section-inner" style="max-width: 1100px;">
+    <div class="admin-header">
+      <h2>Signup Dashboard</h2>
+      <button class="admin-toggle" onclick="closeAdminDashboard()">Close Dashboard</button>
+    </div>
+    <div id="adminPanel"></div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="section-inner">
+    <div class="section-label">Common Questions</div>
+    <div class="section-title">Frequently Asked Questions</div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleFaq(this)">What ages is this for?</div>
+        <div class="faq-answer"><p>Growing Up Together is written for parents, grandparents, and caregivers of children of all ages — but especially families with kids between 8 and 18. The Make the Moments Matter cards are designed so that everyone at the table, from age 6 to 86, can participate.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleFaq(this)">Is the book physical or digital?</div>
+        <div class="faq-answer"><p>The advance copy is a digital ebook. A physical edition is planned for later in 2026. The Make the Moments Matter card deck is a physical printed deck that ships to your door, plus a digital companion app you can access anywhere.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleFaq(this)">Can I buy just the card deck without the book?</div>
+        <div class="faq-answer"><p>Yes. The card deck and digital app are available as a standalone purchase for $19.99. However, the book provides the foundation — the "why" behind each card — and we recommend experiencing both together.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleFaq(this)">When does everything launch?</div>
+        <div class="faq-answer"><p>We are launching in Summer 2026. Early readers who sign up now will receive their copies before the general public, plus exclusive access to the Growing Up Together community.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleFaq(this)">What is the Family GPT?</div>
+        <div class="faq-answer"><p>The Family GPT is a private, AI-powered tool that lives on your device and reflects your family's values, boundaries, and communication style. It is not a chatbot that gives advice — it is a mirror that helps your family stay aligned during difficult conversations. No one else can see it or access it. Your data is never stored or shared.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleFaq(this)">How is this different from other parenting books?</div>
+        <div class="faq-answer"><p>Most books tell you what is wrong. This one gives you what to do about it — starting tonight. It comes with practical tools: conversation cards, a private AI assistant, a community framework, and a clear escalation path from your dinner table to the halls of Congress. It is a book, a toolkit, and a movement.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div style="max-width: 900px; margin: 0 auto; display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 2rem; text-align: left; padding-bottom: 2rem; border-bottom: 1px solid rgba(255,255,255,0.08); margin-bottom: 1.5rem;">
+    <div>
+      <div style="font-family: 'Playfair Display', serif; font-weight: 700; font-size: 1.1rem; color: #fff; margin-bottom: 0.75rem;">Growing Up <span style="color: var(--gold);">Together</span></div>
+      <p style="font-size: 0.85rem; line-height: 1.7; color: rgba(255,255,255,0.5); max-width: 300px;">A book, a card deck, and a movement for families ready to rebuild real connection in a digital world.</p>
+    </div>
+    <div>
+      <div style="font-weight: 700; font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.75rem;">Quick Links</div>
+      <div style="display: flex; flex-direction: column; gap: 0.4rem;">
+        <a href="#about" style="color: rgba(255,255,255,0.5); text-decoration: none; font-size: 0.8rem;">About the Book</a>
+        <a href="#cards" style="color: rgba(255,255,255,0.5); text-decoration: none; font-size: 0.8rem;">Card Deck</a>
+        <a href="#signup" style="color: rgba(255,255,255,0.5); text-decoration: none; font-size: 0.8rem;">Get Your Copy</a>
+        <a href="#gpt" style="color: rgba(255,255,255,0.5); text-decoration: none; font-size: 0.8rem;">Family GPT</a>
+        <a href="#faq" style="color: rgba(255,255,255,0.5); text-decoration: none; font-size: 0.8rem;">FAQ</a>
+      </div>
+    </div>
+    <div>
+      <div style="font-weight: 700; font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.75rem;">Connect</div>
+      <div style="display: flex; flex-direction: column; gap: 0.4rem;">
+        <a href="mailto:Rod@growinguptogether.ai" style="color: rgba(255,255,255,0.5); text-decoration: none; font-size: 0.8rem;">Email</a>
+        <a href="https://www.linkedin.com/in/drrodwilson" target="_blank" style="color: rgba(255,255,255,0.5); text-decoration: none; font-size: 0.8rem;">LinkedIn</a>
+        <a href="https://www.instagram.com/growinguptogether.ai" target="_blank" style="color: rgba(255,255,255,0.5); text-decoration: none; font-size: 0.8rem;">Instagram</a>
+        <a href="https://www.facebook.com/growinguptogether.ai" target="_blank" style="color: rgba(255,255,255,0.5); text-decoration: none; font-size: 0.8rem;">Facebook</a>
+      </div>
+    </div>
+  </div>
+  <p>&copy; 2026 Rod Wilson, Ph.D. All rights reserved. &bull; <a href="https://www.growinguptogether.ai">growinguptogether.ai</a></p>
+  <p style="margin-top: 1rem;"><a href="javascript:void(0)" onclick="openAdminDashboard()" style="color: rgba(255,255,255,0.3); font-size: 0.7rem;">Admin</a></p>
+</footer>
+
+<script>
+// ═══════════════════════════════════════════
+// MOBILE NAV
+// ═══════════════════════════════════════════
+function closeMenu() {
+  document.querySelector('.hamburger').classList.remove('open');
+  document.querySelector('nav ul').classList.remove('show');
+}
+
+// ═══════════════════════════════════════════
+// FAQ TOGGLE
+// ═══════════════════════════════════════════
+function toggleFaq(el) {
+  const wasOpen = el.classList.contains('open');
+  document.querySelectorAll('.faq-question').forEach(q => q.classList.remove('open'));
+  document.querySelectorAll('.faq-answer').forEach(a => a.classList.remove('open'));
+  if (!wasOpen) {
+    el.classList.add('open');
+    el.nextElementSibling.classList.add('open');
+  }
+}
+
+// ═══════════════════════════════════════════
+// PRICING SELECTOR
+// ═══════════════════════════════════════════
+function selectPricing(type) {
+  document.querySelectorAll('.pricing-card').forEach(c => c.classList.remove('selected'));
+  document.querySelectorAll('.radio-dot').forEach(d => d.classList.remove('active'));
+  if (type === 'book') {
+    document.getElementById('priceBook').classList.add('selected');
+    document.getElementById('priceBook').querySelector('.radio-dot').classList.add('active');
+  } else {
+    document.getElementById('priceBundle').classList.add('selected');
+    document.getElementById('priceBundle').querySelector('.radio-dot').classList.add('active');
+  }
+  document.getElementById('packageType').value = type;
+}
+
+// ═══════════════════════════════════════════
+// PRESENTATION SLIDE GALLERY
+// ═══════════════════════════════════════════
+const slideFiles = [
+  'Growing up together presentation_Page_01.webp',
+  'Growing up together presentation_Page_02.webp',
+  'Growing up together presentation_Page_03.webp',
+  'Growing up together presentation_Page_04.webp',
+  'Growing up together presentation_Page_05.webp',
+  'Growing up together presentation_Page_06.webp',
+  'Growing up together presentation_Page_07.webp',
+  'Growing up together presentation_Page_08.webp',
+  'Growing up together presentation_Page_09.webp',
+  'Growing up together presentation_Page_10.webp',
+  'Growing up together presentation_Page_11.webp',
+  'Growing up together presentation_Page_12.webp',
+  'Growing up together presentation_Page_13.webp',
+  'Growing up together presentation_Page_14.webp',
+  'Growing up together presentation_Page_15.webp'
+];
+const slideTitles = [
+  'Growing Up Together',
+  "Parent's Timeline vs Child's Timeline",
+  'The Unfair Assignment',
+  'The Pocket Slot Machine',
+  'Visible Reality / Invisible Digital Inputs',
+  'The Confidence Trap',
+  'Simulated Connection vs Real Relationship',
+  'The Paradigm Shift',
+  'Shifting the Communication Paradigm',
+  'The Activation Energy Curve',
+  'The Escalation Breakers',
+  'The Real-World Reset',
+  'Preserving the Baseline (Family GPT)',
+  'The Architecture of Connection',
+  'Day One'
+];
+let currentSlide = 0;
+
+function initSlideGallery() {
+  const thumbContainer = document.getElementById('slideThumbs');
+  if (!thumbContainer) return;
+  thumbContainer.innerHTML = '';
+  slideFiles.forEach((file, i) => {
+    const thumb = document.createElement('div');
+    thumb.className = 'slide-thumb' + (i === 0 ? ' active' : '');
+    thumb.innerHTML = '<img src="' + file + '" alt="' + slideTitles[i] + '">';
+    thumb.onclick = function() { goToSlide(i); };
+    thumbContainer.appendChild(thumb);
+  });
+}
+
+function goToSlide(index) {
+  currentSlide = index;
+  document.getElementById('slideImage').src = slideFiles[currentSlide];
+  document.getElementById('slideImage').alt = slideTitles[currentSlide];
+  document.getElementById('slideNum').textContent = currentSlide + 1;
+  document.querySelectorAll('.slide-thumb').forEach((t, i) => {
+    t.classList.toggle('active', i === currentSlide);
+  });
+  // Scroll active thumbnail into view
+  const activeTh = document.querySelectorAll('.slide-thumb')[currentSlide];
+  if (activeTh) activeTh.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+}
+
+function changeSlide(dir) {
+  let next = currentSlide + dir;
+  if (next < 0) next = slideFiles.length - 1;
+  if (next >= slideFiles.length) next = 0;
+  goToSlide(next);
+}
+
+document.addEventListener('DOMContentLoaded', initSlideGallery);
+
+// ═══════════════════════════════════════════
+// MAKE THE MOMENTS MATTER CARD DECK
+// ═══════════════════════════════════════════
+const mtmmCards = [
+  { code: "#1", category: "Opening Card", categoryShort: "Welcome", color: "#b8963e", icon: "✦", front: "What's one moment from this week you'd want to tell someone about?", back: ["What made that moment stand out to you?", "Who would you most want to share it with?", "How did it change the way you felt about your day?"], chapter: "Ch. 10 — Better communication starts with better questions" },
+  { code: "DL-05", category: "Daily Life & Routines", categoryShort: "Daily Life", color: "#c49a3c", icon: "☀", front: "What's something you're surprisingly good at that most people don't know?", back: ["How did you get good at it?", "Does anyone watch you do it?"], chapter: "Ch. 7 — Confidence is built through effort, not applause" },
+  { code: "FH-08", category: "Family & Home", categoryShort: "Family", color: "#4a7c59", icon: "⌂", front: "Tell me about a family member who gets you in a way others don't.", back: ["What do they understand about you?", "How did you two develop that connection?", "What would it mean to tell them how much it matters?"], chapter: "Ch. 8 — Listening is the foundation of understanding" },
+  { code: "SM-03", category: "Screens, Social Media & AI", categoryShort: "Social Media", color: "#4a6fa5", icon: "◆", front: "Tell me about a time you compared yourself to someone online and it stuck with you.", back: ["What did you see them doing?", "How long did the comparison last?", "What helped you move past it?"], chapter: "Ch. 6 — Online experiences shape emotions faster than kids realize" },
+  { code: "FB-12", category: "Friends & Belonging", categoryShort: "Friends", color: "#3a8a8a", icon: "∞", front: "What's something about you that you only show certain friends?", back: ["Why not everyone?", "What makes those friends safe?"], chapter: "Ch. 9 — Real relationships require presence, not just connection" },
+  { code: "CE-07", category: "Confidence, Effort & Growth", categoryShort: "Growth", color: "#c27a3a", icon: "▲", front: "When you're learning something new, how long does it take before you feel like you know what you're doing?", back: ["What's your breaking point — when do you start to feel discouraged?", "What helps you push through that feeling?"], chapter: "Ch. 7 — Confidence is built through effort, not applause" },
+  { code: "CC-20", category: "Choices, Character & the Future", categoryShort: "Character", color: "#7b5ea7", icon: "✿", front: "When you're tempted to do something you know you shouldn't, what usually stops you?", back: ["Is it guilt, fear of consequences, or something else?", "Do different things tempt you at different times?", "Who or what has the biggest influence on your choices?"], chapter: "Ch. 16 — Families are where kids learn to be human" },
+  { code: "G-01", category: "Game — Would You Rather", categoryShort: "Game", color: "#b54a4a", icon: "⊠", front: "Would you rather have the ability to pause any moment and relive it, or skip ahead to see what happens next?", back: ["What moment would you pause right now if you could?", "What moment are you curious about seeing?", "Does your answer change depending on what's happening in your life?"], chapter: "Ch. 12 — Restoring presence is the antidote to distraction" },
+  { code: "M-06", category: "Milestone — Month Six", categoryShort: "Milestone", color: "#2c3e6b", icon: "⚑", front: "Halfway through the year — how is your family different than it was six months ago?", back: ["What changed the most?", "What are you proud of?", "What's still hard?", "What do you want to keep doing?"], chapter: "Ch. 12 — Restoring presence is the antidote to distraction" },
+  { code: "W-03", category: "Wild Card", categoryShort: "Wild", color: "#7a5aaa", icon: "⚡", front: "Honest confession: Tell the family something real that you've been keeping to yourself.", back: ["How did it feel to say it out loud?", "Were you surprised by their reaction?", "What made it hard to say?"], chapter: "Ch. 9 — Real relationships require presence, not just connection" }
+];
+
+const teaserIndices = [0, 1, 2, 3, 6, 7]; // Indices: #1, DL-05, FH-08, SM-03, CC-20, G-01
+let drawnCards = [];
+
+function renderTeaserCards() {
+  const container = document.getElementById('teaserCardsContainer');
+  if (!container) return;
+  container.innerHTML = '';
+  teaserIndices.forEach(idx => {
+    const card = mtmmCards[idx];
+    const teaserEl = document.createElement('div');
+    teaserEl.className = 'teaser-card';
+    teaserEl.innerHTML = `
+      <div class="teaser-card-front">
+        <div class="teaser-band" style="background-color: ${card.color};">${card.category}</div>
+        <div class="teaser-category">${card.categoryShort}</div>
+        <div class="teaser-question">${card.front}</div>
+      </div>
+    `;
+    container.appendChild(teaserEl);
+  });
+}
+
+function drawCard() {
+  if (drawnCards.length === mtmmCards.length) {
+    drawnCards = [];
+  }
+  let availableIndices = [];
+  for (let i = 0; i < mtmmCards.length; i++) {
+    if (!drawnCards.includes(i)) {
+      availableIndices.push(i);
+    }
+  }
+  const randomIdx = availableIndices[Math.floor(Math.random() * availableIndices.length)];
+  drawnCards.push(randomIdx);
+  displayCard(randomIdx);
+}
+
+function displayCard(idx) {
+  const card = mtmmCards[idx];
+  const flipContainer = document.getElementById('displayCardFlip');
+  if (!flipContainer) return;
+  flipContainer.classList.remove('flipped');
+  flipContainer.innerHTML = `
+    <div class="card-face card-front">
+      <div class="card-color-band" style="background-color: ${card.color};">${card.category}</div>
+      <div class="card-category">${card.categoryShort}</div>
+      <div class="card-question">${card.front}</div>
+      <div class="card-bottom-label">MAKE THE MOMENTS MATTER</div>
+    </div>
+    <div class="card-face card-back">
+      <div class="card-color-band" style="background-color: ${card.color};">${card.icon}</div>
+      <div class="card-back-label">Go Deeper</div>
+      <ul class="card-follow-ups">
+        ${card.back.map(q => `<li>${q}</li>`).join('')}
+      </ul>
+      <div class="card-chapter">${card.chapter}</div>
+      <div class="card-code">${card.code}</div>
+    </div>
+  `;
+  flipContainer.onclick = function() {
+    flipContainer.classList.toggle('flipped');
+  };
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  renderTeaserCards();
+});
+
+// ═══════════════════════════════════════════
+// POST-SURVEY EMAIL CAPTURE
+// ═══════════════════════════════════════════
+async function submitSurveyEmail() {
+  var email = document.getElementById('surveyFollowEmail').value.trim();
+  if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { alert('Please enter a valid email address.'); return; }
+  await saveSignup('survey', { email: email, source: 'post-survey-follow-up' });
+  document.getElementById('surveyFollowEmail').style.display = 'none';
+  document.querySelector('#surveyEmailCapture button').style.display = 'none';
+  document.getElementById('surveyEmailThanks').style.display = 'block';
+}
+
+// ═══════════════════════════════════════════
+// CARD DECK SIGNUP
+// ═══════════════════════════════════════════
+async function submitCardSignup() {
+  const name = document.getElementById('cardName').value.trim();
+  const email = document.getElementById('cardEmail').value.trim();
+  if (!name || !email) { alert('Please enter your name and email.'); return; }
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { alert('Please enter a valid email address.'); return; }
+  await saveSignup('cards', { name: name, email: email });
+  document.getElementById('cardSignupForm').style.display = 'none';
+  document.getElementById('cardThankYou').style.display = 'block';
+}
+
+// ═══════════════════════════════════════════
+// FAMILY GPT — SECURE AI BACKEND
+// The API key is NEVER in this file.
+// It lives safely on the server in a .env file.
+// ═══════════════════════════════════════════
+let useBackendAI = false; // auto-detected on load
+let chatHistory = [];
+let apiCallInProgress = false;
+
+// Check if the secure backend is available
+(async function checkBackend() {
+  try {
+    const res = await fetch('/api/status');
+    if (res.ok) {
+      const data = await res.json();
+      if (data.api_configured) {
+        useBackendAI = true;
+        console.log('Family GPT: Live AI connected via secure backend (' + data.model + ')');
+      } else {
+        console.log('Family GPT: Backend running but no API key configured. Using built-in demo responses.');
+      }
+    }
+  } catch (e) {
+    console.log('Family GPT: No backend detected. Using built-in demo responses. For live AI, run: node server.js');
+  }
+})();
+
+// ── SURVEY FUNCTIONALITY ──
+const surveyConfig = {
+  q1: { label: 'Concern Level', options: { extremely: 'Extremely', very: 'Very', somewhat: 'Somewhat', not_very: 'Not very' }},
+  q2: { label: 'Legislation Enough?', options: { yes: 'Yes', helps: 'Helps but not enough', no: 'Communities lead', unsure: 'Not sure' }},
+  q3: { label: 'Family Conversations', options: { daily: 'Daily', weekly: 'Weekly', rarely: 'Rarely', never: 'Never' }},
+  q4: { label: 'Ban Workarounds?', options: { most: 'Yes, most', some: 'Some would', few: 'Most comply' }},
+  q5: { label: 'Corporate Liability', options: { absolutely: 'Absolutely', partially: 'Partially', no: 'No' }},
+  q6: { label: 'Willing to Act?', options: { already: 'Already am', yes: 'Yes', maybe: 'Maybe', no: 'Probably not' }}
+};
+
+const surveyData = {
+  q1: { extremely: 47, very: 28, somewhat: 8, not_very: 2 },
+  q2: { yes: 12, helps: 41, no: 29, unsure: 3 },
+  q3: { daily: 8, weekly: 19, rarely: 38, never: 20 },
+  q4: { most: 52, some: 26, few: 7 },
+  q5: { absolutely: 48, partially: 30, no: 7 },
+  q6: { already: 11, yes: 34, maybe: 31, no: 9 }
+};
+
+let totalResponses = 85;
+const colors = ['c1', 'c2', 'c3', 'c4'];
+
+function renderResults() {
+  const container = document.getElementById('resultsContainer');
+  container.innerHTML = '';
+  document.getElementById('totalResponses').textContent = totalResponses;
+
+  for (const [qKey, config] of Object.entries(surveyConfig)) {
+    const data = surveyData[qKey];
+    const total = Object.values(data).reduce((a, b) => a + b, 0);
+    const group = document.createElement('div');
+    group.className = 'result-group';
+    group.innerHTML = '<div class="rg-label">' + config.label + '</div>';
+
+    let i = 0;
+    for (const [val, label] of Object.entries(config.options)) {
+      const count = data[val] || 0;
+      const pct = total > 0 ? Math.round((count / total) * 100) : 0;
+      group.innerHTML += '<div class="result-bar-row">' +
+        '<div class="result-bar-label">' + label + '</div>' +
+        '<div class="result-bar-track"><div class="result-bar-fill ' + colors[i % 4] + '" style="width:' + pct + '%"></div></div>' +
+        '<div class="result-bar-pct">' + pct + '%</div></div>';
+      i++;
+    }
+    container.appendChild(group);
+  }
+}
+
+renderResults();
+
+document.querySelectorAll('.survey-form input[type="radio"]').forEach(radio => {
+  radio.addEventListener('change', function() {
+    const q = this.name;
+    const v = this.value;
+    if (surveyData[q]) {
+      surveyData[q][v] = (surveyData[q][v] || 0) + 1;
+      renderResults();
+    }
+  });
+});
+
+// ═══════════════════════════════════════════
+// NOTIFICATION & TRACKING SYSTEM
+// Saves to server database when running with server.js
+// Falls back to localStorage when opening HTML directly
+// ═══════════════════════════════════════════
+const NOTIFY_EMAIL = 'Rod@growinguptogether.ai';
+let useServerDB = false; // auto-detected below
+
+// Store all signups in memory (and attempt localStorage as fallback)
+let allSignups = [];
+try { allSignups = JSON.parse(localStorage.getItem('gut_signups') || '[]'); } catch(e) {}
+
+// Detect if the server database is available
+(async function checkServerDB() {
+  try {
+    const res = await fetch('/api/status');
+    if (res.ok) {
+      const data = await res.json();
+      useServerDB = true;
+      console.log('Server database connected. Stats:', data.stats);
+      // Load existing signups from server into memory for dashboard
+      await loadSignupsFromServer();
+      renderAdminTable();
+    }
+  } catch (e) {
+    console.log('No server detected. Using localStorage fallback.');
+  }
+})();
+
+async function loadSignupsFromServer() {
+  try {
+    const res = await fetch('/api/signups');
+    if (res.ok) {
+      const data = await res.json();
+      allSignups = data.signups || [];
+    }
+  } catch (e) {
+    console.log('Could not load signups from server.');
+  }
+}
+
+async function saveSignup(type, data) {
+  const entry = {
+    type: type,
+    timestamp: new Date().toISOString(),
+    date: new Date().toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }),
+    time: new Date().toLocaleTimeString('en-US'),
+    ...data
+  };
+
+  if (useServerDB) {
+    // ── Save to persistent server database ──
+    try {
+      const res = await fetch('/api/signup', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ type, data })
+      });
+      if (res.ok) {
+        const result = await res.json();
+        console.log('Saved to server database:', result.entry);
+        // Reload all signups from server for accurate dashboard
+        await loadSignupsFromServer();
+        renderAdminTable();
+        return result.entry;
+      }
+    } catch (e) {
+      console.warn('Server save failed, falling back to localStorage:', e.message);
+    }
+  }
+
+  // ── Fallback: localStorage + email notification ──
+  allSignups.push(entry);
+  try { localStorage.setItem('gut_signups', JSON.stringify(allSignups)); } catch(e) {}
+  console.log('NEW SIGNUP (local):', entry);
+  sendNotification(type, entry);
+  renderAdminTable();
+  return entry;
+}
+
+function sendNotification(type, entry) {
+  // Only send mailto notifications when NOT using server (server handles its own logging)
+  if (useServerDB) return;
+
+  const labels = { survey: 'New Survey Response', leader: 'New Community Leader', book: 'New Book Signup' };
+  const subject = 'GrowingUpTogether.ai \u2014 ' + (labels[type] || 'New Signup');
+
+  const lines = [];
+  lines.push('--- ' + (labels[type] || type).toUpperCase() + ' ---');
+  lines.push('');
+  lines.push('When: ' + (entry.date || '') + ' at ' + (entry.time || ''));
+  lines.push('');
+
+  if (type === 'leader') {
+    lines.push('Name: ' + (entry.first || '') + ' ' + (entry.last || ''));
+    lines.push('Email: ' + (entry.email || ''));
+    lines.push('Zip Code: ' + (entry.zip || ''));
+    lines.push('Organization: ' + (entry.org || ''));
+    lines.push('Potential Reach: ' + (entry.reach || '') + ' people');
+    if (entry.help) lines.push('Support Needed: ' + entry.help);
+  } else if (type === 'book') {
+    lines.push('Name: ' + (entry.name || ''));
+    lines.push('Email: ' + (entry.email || ''));
+  } else if (type === 'survey') {
+    const qLabels = {
+      q1: 'Concern level', q2: 'Legislation enough?', q3: 'Family conversations',
+      q4: 'Ban workarounds?', q5: 'Corporate liability', q6: 'Willing to act?', q7_openended: 'Biggest obstacle (open-ended)'
+    };
+    for (const [k, v] of Object.entries(entry)) {
+      if (['type','timestamp','date','time'].includes(k) || !v) continue;
+      lines.push((qLabels[k] || k) + ': ' + v);
+    }
+  } else {
+    for (const [k, v] of Object.entries(entry)) {
+      if (['type','timestamp'].includes(k) || !v) continue;
+      lines.push(k.charAt(0).toUpperCase() + k.slice(1).replace(/_/g,' ') + ': ' + v);
+    }
+  }
+
+  lines.push('');
+  lines.push('--- Total signups to date: ' + allSignups.length + ' ---');
+  lines.push('View your dashboard at growinguptogether.ai');
+
+  const body = lines.join('\n');
+  const mailLink = document.createElement('a');
+  mailLink.href = 'mailto:' + NOTIFY_EMAIL + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+  mailLink.style.display = 'none';
+  document.body.appendChild(mailLink);
+  mailLink.click();
+  document.body.removeChild(mailLink);
+}
+
+let adminFilter = 'all';
+let adminSearch = '';
+
+async function renderAdminTable() {
+  const panel = document.getElementById('adminPanel');
+  if (!panel) return;
+
+  // If server is available, refresh data from server with current filters
+  if (useServerDB) {
+    try {
+      const params = new URLSearchParams();
+      if (adminFilter !== 'all') params.set('type', adminFilter);
+      if (adminSearch) params.set('search', adminSearch);
+      const res = await fetch('/api/signups?' + params.toString());
+      if (res.ok) {
+        const serverData = await res.json();
+        allSignups = serverData.signups || [];
+      }
+    } catch (e) {
+      console.log('Could not refresh from server, using cached data.');
+    }
+  }
+
+  const allData = allSignups.slice().reverse();
+  const data = adminFilter === 'all' ? allData : allData.filter(e => e.type === adminFilter);
+  const surveyCount = allSignups.filter(e => e.type === 'survey').length;
+  const leaderCount = allSignups.filter(e => e.type === 'leader').length;
+  const bookCount = allSignups.filter(e => e.type === 'book').length;
+
+  // Summary cards
+  let html = '<div class="admin-summary">';
+  html += '<div class="admin-stat-card"><div class="stat-number">' + allSignups.length + '</div><div class="stat-label">Total Signups</div></div>';
+  html += '<div class="admin-stat-card"><div class="stat-number" style="color:#27ae60;">' + surveyCount + '</div><div class="stat-label">Survey Responses</div></div>';
+  html += '<div class="admin-stat-card"><div class="stat-number" style="color:#d4a84b;">' + leaderCount + '</div><div class="stat-label">Community Leaders</div></div>';
+  html += '<div class="admin-stat-card"><div class="stat-number" style="color:#c0392b;">' + bookCount + '</div><div class="stat-label">Book Signups</div></div>';
+  html += '</div>';
+
+  // Filter bar
+  html += '<div class="admin-filter-bar">';
+  html += '<button class="admin-filter-btn' + (adminFilter==='all'?' active':'') + '" onclick="adminFilter=\'all\';renderAdminTable();">All (' + allSignups.length + ')</button>';
+  html += '<button class="admin-filter-btn' + (adminFilter==='survey'?' active':'') + '" onclick="adminFilter=\'survey\';renderAdminTable();">Surveys (' + surveyCount + ')</button>';
+  html += '<button class="admin-filter-btn' + (adminFilter==='leader'?' active':'') + '" onclick="adminFilter=\'leader\';renderAdminTable();">Leaders (' + leaderCount + ')</button>';
+  html += '<button class="admin-filter-btn' + (adminFilter==='book'?' active':'') + '" onclick="adminFilter=\'book\';renderAdminTable();">Book (' + bookCount + ')</button>';
+  if (useServerDB) {
+    html += '<input type="text" placeholder="Search by name or email..." value="' + (adminSearch||'') + '" onchange="adminSearch=this.value;renderAdminTable();" style="margin-left:0.5rem;padding:0.4rem 0.75rem;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.2);border-radius:20px;color:#fff;font-size:0.8rem;width:180px;" />';
+  }
+  html += '<button onclick="downloadSignupsCSV()" style="margin-left:auto;padding:0.4rem 1.25rem;background:var(--gold);color:var(--ink);border:none;border-radius:20px;font-weight:600;font-size:0.8rem;cursor:pointer;">Export CSV</button>';
+  html += '</div>';
+
+  if (data.length === 0) {
+    html += '<p style="color:rgba(255,255,255,0.5);font-size:0.9rem;padding:2rem 0;text-align:center;">No ' + (adminFilter==='all'?'':'matching ') + 'entries yet.</p>';
+    panel.innerHTML = html;
+    return;
+  }
+
+  // Table
+  html += '<div style="overflow-x:auto;border-radius:8px;border:1px solid rgba(255,255,255,0.1);"><table style="width:100%;border-collapse:collapse;font-size:0.8rem;">';
+  html += '<thead><tr style="background:rgba(255,255,255,0.05);">';
+  ['Type','Date','Time','Name','Email','Details'].forEach(h => {
+    html += '<th style="text-align:left;padding:0.75rem 1rem;border-bottom:2px solid rgba(212,168,75,0.4);color:var(--gold);font-weight:700;white-space:nowrap;font-size:0.75rem;letter-spacing:0.08em;text-transform:uppercase;">' + h + '</th>';
+  });
+  html += '</tr></thead><tbody>';
+  data.forEach((entry, i) => {
+    const typeLabels = { survey:'Survey', leader:'Leader', book:'Book' };
+    const typeColors = { survey:'#27ae60', leader:'#d4a84b', book:'#c0392b' };
+    const typeBgColors = { survey:'rgba(39,174,96,0.15)', leader:'rgba(212,168,75,0.15)', book:'rgba(192,57,43,0.15)' };
+    const name = [entry.first, entry.last, entry.name].filter(Boolean).join(' ').trim() || 'Anonymous';
+    const email = entry.email || '—';
+    const skip = ['type','timestamp','date','time','email','first','last','name'];
+    const details = Object.entries(entry).filter(([k,v]) => !skip.includes(k) && v).map(([k,v]) => {
+      const label = k.charAt(0).toUpperCase() + k.slice(1).replace(/_/g,' ');
+      return '<strong style="color:rgba(255,255,255,0.5);">' + label + ':</strong> ' + v;
+    }).join('<br>');
+    const rowBg = i % 2 === 0 ? 'transparent' : 'rgba(255,255,255,0.02)';
+    html += '<tr style="border-bottom:1px solid rgba(255,255,255,0.06);background:' + rowBg + ';">';
+    html += '<td style="padding:0.6rem 1rem;"><span style="background:' + (typeBgColors[entry.type]||'rgba(100,100,100,0.2)') + ';color:' + (typeColors[entry.type]||'#999') + ';padding:0.2rem 0.6rem;border-radius:12px;font-size:0.7rem;font-weight:700;letter-spacing:0.03em;">' + (typeLabels[entry.type]||entry.type) + '</span></td>';
+    html += '<td style="padding:0.6rem 1rem;color:rgba(255,255,255,0.7);white-space:nowrap;font-size:0.8rem;">' + (entry.date||'') + '</td>';
+    html += '<td style="padding:0.6rem 1rem;color:rgba(255,255,255,0.7);white-space:nowrap;font-size:0.8rem;">' + (entry.time||'') + '</td>';
+    html += '<td style="padding:0.6rem 1rem;color:#fff;font-weight:600;">' + name + '</td>';
+    html += '<td style="padding:0.6rem 1rem;color:rgba(255,255,255,0.8);">' + email + '</td>';
+    html += '<td style="padding:0.6rem 1rem;color:rgba(255,255,255,0.6);max-width:350px;font-size:0.78rem;line-height:1.5;">' + (details||'—') + '</td>';
+    html += '</tr>';
+  });
+  html += '</tbody></table></div>';
+  panel.innerHTML = html;
+}
+
+function downloadSignupsCSV() {
+  if (useServerDB) {
+    // Download CSV directly from server
+    const params = new URLSearchParams();
+    if (adminFilter !== 'all') params.set('type', adminFilter);
+    window.location.href = '/api/export?' + params.toString();
+    return;
+  }
+
+  // Fallback: generate CSV client-side from localStorage data
+  if (allSignups.length === 0) { alert('No signups yet.'); return; }
+  const allKeys = new Set();
+  allSignups.forEach(s => Object.keys(s).forEach(k => allKeys.add(k)));
+  const keys = ['type','date','time','timestamp',...[...allKeys].filter(k => !['type','date','time','timestamp'].includes(k))];
+  let csv = keys.map(k => k.charAt(0).toUpperCase() + k.slice(1).replace(/_/g,' ')).join(',') + '\n';
+  allSignups.forEach(s => {
+    csv += keys.map(k => '"' + (s[k]||'').toString().replace(/"/g,'""') + '"').join(',') + '\n';
+  });
+  const blob = new Blob([csv], {type:'text/csv'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'growinguptogether-signups-' + new Date().toISOString().slice(0,10) + '.csv';
+  a.click();
+}
+
+// Survey submit
+document.getElementById('surveyForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+
+  document.getElementById('surveyBanner').classList.add('show');
+
+  const surveyAnswers = {};
+  document.querySelectorAll('.survey-form input[type="radio"]:checked').forEach(radio => {
+    surveyAnswers[radio.name] = radio.value;
+  });
+  surveyAnswers.q7_openended = document.querySelector('.survey-textarea').value;
+
+  document.querySelectorAll('.survey-form input[type="radio"]').forEach(radio => {
+    radio.disabled = true;
+  });
+  document.querySelector('.survey-textarea').disabled = true;
+  document.getElementById('surveySubmit').disabled = true;
+
+  document.getElementById('surveyShareSection').classList.add('show');
+
+  totalResponses++;
+  renderResults();
+
+  saveSignup('survey', surveyAnswers);
+});
+
+// Copy Link button
+document.getElementById('copyLinkBtn').addEventListener('click', function() {
+  const url = window.location.href.split('#')[0];
+  navigator.clipboard.writeText(url).then(() => {
+    const feedback = document.getElementById('shareFeedback');
+    feedback.textContent = 'Copied!';
+    feedback.style.display = 'block';
+    setTimeout(() => {
+      feedback.style.display = 'none';
+    }, 2000);
+  });
+});
+
+// Share via Email button
+document.getElementById('shareEmailBtn').addEventListener('click', function() {
+  const url = window.location.href.split('#')[0];
+  const subject = 'Take this survey about social media and our children';
+  const body = 'I just took this survey about social media and our children. I think you should too. Your voice matters: ' + url;
+  window.location.href = 'mailto:?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+});
+
+// Lead form
+document.getElementById('leadForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  const data = {};
+  new FormData(this).forEach((v, k) => data[k] = v);
+  this.style.display = 'none';
+  document.getElementById('leadThanks').style.display = 'block';
+  saveSignup('leader', data);
+});
+
+// Signup form — uses Stripe Checkout when server + Stripe are configured
+document.getElementById('signupForm').addEventListener('submit', async function(e) {
+  e.preventDefault();
+  const form = this;
+  const name = form.querySelector('input[name="name"]').value;
+  const email = form.querySelector('input[name="email"]').value;
+  const packageType = form.querySelector('input[name="package"]').value || 'book';
+  const submitBtn = form.querySelector('.signup-btn');
+
+  if (useServerDB) {
+    // Try Stripe Checkout first
+    submitBtn.textContent = 'Processing...';
+    submitBtn.disabled = true;
+    try {
+      const res = await fetch('/api/checkout', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ name, email, package: packageType })
+      });
+      const data = await res.json();
+
+      if (data.url) {
+        // Stripe is configured — redirect to payment page
+        window.location.href = data.url;
+        return;
+      }
+
+      if (data.note) {
+        // Stripe not configured — save signup and show thank you
+        console.log('Stripe not configured:', data.note);
+      }
+    } catch (err) {
+      console.log('Checkout endpoint unavailable, saving signup directly.');
+    }
+    submitBtn.textContent = 'Get Your Advance Copy — $0.99';
+    submitBtn.disabled = false;
+  }
+
+  // Save signup (server DB or localStorage fallback)
+  await saveSignup('book', { name: name, email: email, package: packageType });
+  document.getElementById('signupForm').style.display = 'none';
+  document.querySelector('.pricing-options').style.display = 'none';
+  document.getElementById('signupThankYou').style.display = 'block';
+});
+
+// ── FAMILY GPT RESPONSE ENGINE v2 ──
+// Context-aware system with multiple response variants per topic
+// Tracks conversation history to never repeat the same response
+
+const usedResponseIds = new Set(); // track which responses have been shown
+
+// Each topic has multiple variants so the GPT never feels canned
+const topicResponses = {
+  'phone-dinner': [
+    { id: 'pd1', text: `Tonight, try this: everyone puts their phone in a basket at dinner — you, David, Maya, Ethan. Not a Maya rule. A family agreement.\n\nSay: "I want to try something for the next three dinners. Phones in the basket. Not because anyone is in trouble, but because I miss talking to you."\n\nMaya respects fairness. If David puts his phone in too, it signals this is a family value, not a punishment aimed at her. She will push back on any rule that feels one-sided.\n\nOnce the phones are away, try a card from the Make the Moments Matter deck: "What is something that happened today that you wish you could do over?" It puts everyone on equal footing.\n\nStart with three dinners. Aim for consistency, not perfection.` },
+    { id: 'pd2', text: `Here is a different angle on this: instead of making dinner a phone-free zone (which feels like a rule), make dinner worth being at.\n\nMaya is 13 and opinionated — use that. Tonight ask her: "Okay Maya, you are in charge of the dinner question tonight. Ask the family anything." She will love the power. And she will come up with something more interesting than you would.\n\nEthan will listen even if he does not talk much. That is fine. His presence at the table matters even if he is quiet.\n\nThe phone does not go away because of a rule. It goes away because something better showed up. That is the shift — from restriction to replacement.` },
+    { id: 'pd3', text: `Something that works well: do not announce the rule in advance. Just start doing it yourself.\n\nTonight, when you sit down, put your own phone on the counter. David does the same. Do not say anything about the kids' phones. Just start talking — ask a real question, share something from your day.\n\nMaya will notice. She may even comment on it. That is your opening: "Yeah, I realized I was checking my phone at dinner and I did not like it. I want to be here with you guys."\n\nKids follow what you model far more than what you mandate. If they see both parents choosing the table over the phone, the dynamic shifts on its own. It may take a week. Keep doing it.` }
+  ],
+  'ethan-online': [
+    { id: 'eo1', text: `Do not sit Ethan down for a talk. That will shut him down immediately.\n\nInstead, start with curiosity. Try: "Can you show me that thing you were watching earlier? I want to understand what you like about it." No judgment in your voice. Just genuine interest.\n\nHere is something that works well with Ethan specifically: text him a question instead of asking face-to-face. Meet him where he is comfortable. Text: "Hey — what are you and your friends playing right now?" Let him respond in his comfort zone.\n\nOver time, those text conversations become bridge conversations at the dinner table.\n\nFrom the card deck: "If you could teach me one thing about the internet that I do not understand, what would it be?" Put him in the expert role. Kids light up when they get to teach.` },
+    { id: 'eo2', text: `With Ethan, the entry point is through his interests, not through your concerns. He is 10, quiet, and comfortable in his digital world. The worst approach is interrogation.\n\nTry this instead: sit next to him while he is on his device. Do not ask to see it right away. Just be near. After a few minutes, say: "That looks interesting. What is happening?" If he explains, great. If he shrugs, try: "Can I watch for a minute?"\n\nThe goal is not to inspect — it is to show up. Ethan needs to associate your presence with safety, not surveillance.\n\nOver the next week, text him something small every day: a funny meme, a "thinking of you," or a question. He will respond more freely through text. That is his comfort zone. Build trust there first, and the in-person conversations will follow.` },
+    { id: 'eo3', text: `Sarah, you mentioned wanting to know what Ethan sees online. Here is the paradox: the more you push to know, the more he pulls away. The less you push, the more he shares over time.\n\nTry this approach: instead of asking what he is looking at, share something you saw online. "I saw this wild video today — want to see it?" Make the screen a thing you share together, not a thing he hides.\n\nAlso, find a game or app you can play together. Even something simple. It gives you a window into his digital life that feels like fun, not monitoring.\n\nEthan does not need you to understand every app. He needs to know that you are interested in him, not just worried about him. There is a big difference, and he can feel it.` }
+  ],
+  'david-tired': [
+    { id: 'dt1', text: `Do not ask David to "be more present." That feels like one more demand after hundreds of decisions all day. Give him one specific, low-effort thing.\n\nTry: "David, I need you for ten minutes tonight. Just sit with Ethan while he shows you something on his tablet. That is it. Ten minutes."\n\nTen minutes is manageable. It is not a lecture, not a family meeting. It is presence. Having his dad sit next to him means more to Ethan than David realizes.\n\nFor the transition from work to home: when David walks in the door, find each kid and make physical contact. A hand on the shoulder, a hug. No words required. Fifteen seconds. It resets the connection.\n\nOne card David could ask Maya: "What is something you are really good at that most people do not know about?" She loves to be seen. That question will mean more than an hour of generic "how was school."` },
+    { id: 'dt2', text: `David's brain is fried from making decisions all day. The last thing he can handle when he gets home is another set of choices about parenting.\n\nSo remove the choices. Sarah, give David a script — literally. "When you get home, here is the one thing I need: ask Maya how practice went. That is it. I will handle the rest tonight."\n\nThis is not about David doing less. It is about David doing one specific thing well instead of feeling overwhelmed by everything. Over time, that one thing becomes two. Then three.\n\nAlso consider this: David might actually engage more through a shared activity than a conversation. Shooting hoops with Maya for ten minutes. Walking the dog with Ethan. He does not have to talk — he just has to be there. For a guy who makes decisions all day, the relief of just being present without having to lead is enormous.` },
+    { id: 'dt3', text: `Here is something to try this week: have David pick one night — just one — where he is "on." Not every night. One night. He leads dinner. He asks the questions. He puts the kids to bed.\n\nThe other nights, he can decompress however he needs to. But on that one night, the kids know Dad is fully there. Maya will remember that night more than five mediocre evenings of half-attention.\n\nAlso, David should know this: Ethan specifically needs his father. A quiet kid with a busy dad can start to feel invisible. Even a text from David during the workday — "Hey buddy, thinking about you" — can shift that. It takes ten seconds and it tells Ethan he exists in his dad's mind even when they are apart.` }
+  ],
+  'sarah-phone': [
+    { id: 'sp1', text: `Take a breath. How you respond right now matters more than what you found.\n\nStep one: do not bring it up in the heat of the moment. Wait until you are calm. Even if it takes a day.\n\nStep two: tell David. You two need to be aligned before talking to Maya. The goal should be understanding, not punishment.\n\nStep three: when you sit down with Maya, lead with honesty, not accusation. Try: "Maya, I saw something on your phone that worried me. I am not here to punish you. I need to understand what is going on."\n\nShe may get angry about privacy. Stay calm: "You are right that privacy matters. And your safety matters more. I am not going to apologize for caring about you. But I am willing to listen."\n\nThe goal is not to win. It is to keep the door open. If you shut her down now, she just gets better at hiding.\n\nFrom the card deck: "What is something you wish your parents understood about your life right now?"` },
+    { id: 'sp2', text: `Before you talk to Maya, here is the most important question to ask yourself: what is my goal for this conversation?\n\nIf the goal is to punish, she will shut down and hide better next time. If the goal is to understand, you have a chance at a real conversation.\n\nHere is a framework that works with strong-willed kids like Maya:\n\n1. Name what you saw — briefly, without drama\n2. Share how it made you feel — "I was worried" is better than "I was furious"\n3. Ask her to help you understand — "Can you walk me through what was happening?"\n4. Listen. Even if what she says makes you uncomfortable. Especially then.\n5. Set the boundary after you have listened — not before\n\nMaya will respect you more for this approach than for yelling. She challenges authority, but she respects honesty. Use that.` }
+  ],
+  'social-media': [
+    { id: 'sm1', text: `Social media is not the enemy — silence about it is. The real risk is not that Maya and Ethan are on these platforms. It is that nobody in the family is talking about what they experience there.\n\nFor Maya at 13, social media is where her social world lives. Engage with it instead of banning it. Ask: "What are people talking about on your feed right now?" Treat it like you would ask about school — with genuine curiosity.\n\nFor Ethan at 10, social media may be his primary way of feeling connected. He may be more expressive online than in person. That is information, not a problem. Ask him to show you something funny he saw today. Enter his world before trying to change it.\n\nSarah, you do not need to understand every app. You need to understand your kids' relationship with it. That comes through conversation, not monitoring.` },
+    { id: 'sm2', text: `Here is what most parents miss about social media: your kids are not just consuming content. They are building identities there. Maya is curating how the world sees her. Ethan is finding communities where he feels comfortable.\n\nThe question is not "how do I get them off it?" The question is "how do I become part of their digital life without taking it over?"\n\nStart here: each week, ask each kid to show you one thing from their feed. Not to check on them — to share. Make it a family ritual. "Show and tell" for the digital age. David participates too — he can share something from LinkedIn or the news.\n\nThis does two things: it makes digital life a shared experience rather than a secret one, and it gives you a natural window into what they are seeing without turning it into surveillance.` },
+    { id: 'sm3', text: `Sarah, you mentioned feeling challenged by the technology. Here is the honest truth: your kids will always be faster with the tools. That is okay. You do not need to out-tech them.\n\nWhat you have that no app can replicate is judgment, experience, and love. Your job is not to understand every feature of TikTok. It is to help Maya develop the critical thinking to ask "why is this showing up on my feed?" and to help Ethan recognize when his online world is replacing his real one.\n\nOne practical step: ask Maya to teach you one feature of an app she uses. Let her be the expert. She will enjoy it, and you will learn something real about her world. With Ethan, ask him who his online friends are — not in a suspicious way, but the way you would ask about school friends.` }
+  ],
+  'bullying': [
+    { id: 'bu1', text: `Both Maya and Ethan would handle bullying very differently, and both would be reluctant to tell you.\n\nMaya might not tell you because she is proud and does not want to seem weak. Try: "I noticed you seem off lately. What is going on in your world right now?" Give her space to come to it.\n\nEthan might not tell you because he avoids face-to-face emotional conversations. Text him: "Hey buddy — everything okay with your friends? You can tell me anything, even by text."\n\nFor both kids: the most important thing is that they know telling you will not make things worse. Say it explicitly: "If something is happening, I will not overreact. I will not call anyone's parent without talking to you first. I just want to know."\n\nSarah — trust your instincts. If something feels off, it probably is.` },
+    { id: 'bu2', text: `Online bullying is different from what we experienced as kids. It follows them home. There is no escape — it is in their pocket 24 hours a day.\n\nIf you suspect something is happening to Maya, watch for changes: is she checking her phone more anxiously? Getting quiet after looking at it? Those are signals.\n\nWith Ethan, the signs might be different. He is already quiet, so a withdrawal might look subtle. Pay attention to whether he is withdrawing even from his device — if the kid who lives online suddenly does not want to be there, something happened.\n\nDo not lead with "are you being bullied?" Lead with "I am on your team. Always. If something happens that does not feel right, I want to help — but only if you want me to. And I promise I will not make it worse."\n\nThat last part matters enormously. Kids stay silent because they fear adult intervention will escalate things. Promising restraint — and keeping that promise — builds the trust that gets them to talk.` }
+  ],
+  'screen-time': [
+    { id: 'st1', text: `Arbitrary time limits rarely work long-term. A kid forced off at exactly two hours learns to resent the clock, not to self-regulate.\n\nFocus on what screen time is displacing. Is Ethan skipping outdoor play? Is Maya missing sleep? Is family conversation disappearing? Those are the real concerns — and they are conversation starters, not rule-making moments.\n\nFor Maya: "I have noticed you are up later on your phone. Help me understand — what are you doing on there at midnight?" She will respect being asked rather than told.\n\nFor Ethan: do not just limit screen time — replace it with something. Find a low-pressure activity you can do together. Even sitting next to him while he plays a game counts.\n\nFor David and Sarah: agree on what matters more — the number of hours or the quality of what happens during them. That conversation between you two should come first.` },
+    { id: 'st2', text: `Instead of counting hours, try tracking what happens before and after screen time.\n\nAsk yourself: is Ethan happier or more withdrawn after an hour online? Is Maya energized or anxious after scrolling? The quality of the experience matters more than the quantity.\n\nHere is a practical approach: instead of setting limits, set check-ins. Every hour, everyone takes a five-minute break — stretch, get water, say something to another person in the house. It is not a limit. It is a rhythm.\n\nMaya will push back less on "take a break" than "time is up." And for Ethan, a check-in is a chance to gently pull him back into the family without making it feel like punishment.\n\nThe bigger conversation: sit down with both kids and ask "what feels like a fair amount of screen time to you?" You might be surprised — kids often set more reasonable limits than we expect when they feel ownership over the decision.` }
+  ],
+  'conflict': [
+    { id: 'cf1', text: `When emotions rise, perspective narrows. That is true for every Mitchell.\n\nMaya argues to establish her voice — not to disrespect. Validate her right to an opinion while holding the boundary: "I hear you. I understand you disagree. The answer is still no, and here is why."\n\nEthan shuts down during conflict. He disappears into his room and his phone. After a family argument, check in separately. A text works: "Hey — that got loud earlier. You okay? I love you." Short. No pressure.\n\nFor David and Sarah: do not argue about parenting in front of the kids. Maya especially will exploit the gap. Get aligned privately. Present a united front.\n\nThis is what the Family GPT is for — when things are calm, you agree on values. When things get heated, you come back to what you already decided together.` },
+    { id: 'cf2', text: `After a big fight, the most important thing is not resolving the issue. It is repairing the connection.\n\nIf you blew up at Maya, go to her and say: "I handled that badly. I am sorry for how I said it. I still mean what I said, but I should have said it differently." Maya respects honesty and accountability. She will soften.\n\nIf Ethan retreated, do not chase him into his room for a talk. Give him space, then send a text: "I know that was a lot. I love you. No pressure to talk right now." Let him come back on his own timeline.\n\nThe repair matters as much as the conflict. Kids are not damaged by arguments — they are damaged by arguments that never get resolved. Show them that people who love each other can fight, apologize, and come back together. That is a life skill they will carry forever.` }
+  ],
+  'sleep': [
+    { id: 'sl1', text: `Sleep is where screens, boundaries, and trust all collide.\n\nThe bigger issue is not blue light — it is what the content does to a young brain at night. At 11pm, Maya is scrolling through social comparison. Ethan is in a group chat where he finally feels like he belongs.\n\nReframe it: all devices — including yours and David's — charge in the kitchen overnight. Not in bedrooms. A house rule, not a kid rule.\n\nFor Maya: "I know this feels unfair. But I am doing it too. My phone is in the kitchen. Dad's phone is in the kitchen."\n\nFor Ethan: "I know your phone helps you feel connected. What if we find a way for you to say goodnight to your friends before it goes in the kitchen?"\n\nNighttime feels like the only part of the day that is fully theirs. Limits late at night feel like loss. They respond better when boundaries are explained before enforcement.` },
+    { id: 'sl2', text: `Here is something most parents do not think about: the reason your kids fight bedtime is not just the screen. It is that nighttime is when they feel most free. No one is watching. No one is asking questions. The phone is their space.\n\nSo instead of just taking that away, give them something in exchange. A bedtime ritual that feels grown-up. For Maya at 13, maybe it is fifteen minutes of reading in bed with a lamp — her choice of book, no input from you. For Ethan, maybe it is a short voice message to one friend before phones go in the kitchen.\n\nThe key is negotiation, not decree. Ask each kid: "If we move phones out of bedrooms at night, what would make that feel okay to you?" They get ownership. You get the boundary. Everyone sleeps better.` }
+  ],
+  'privacy': [
+    { id: 'pr1', text: `This is one of the hardest tensions — Sarah, I know you feel it. You are trying to keep your kids safe, but checking their phone risks breaking their trust.\n\nMaya at 13 expects and demands privacy. If she catches you, it confirms you do not trust her — and she gets better at hiding, not sharing.\n\nBe transparent instead. Tell the kids: "I am not going to secretly check your phones. But I am going to ask questions, and I expect honest answers. If I feel something is wrong, I will tell you I am concerned and we will look at it together."\n\nYou do not need to understand every app. You need your kids to trust you enough to come to you when something goes wrong. That trust is built through conversation, not surveillance.` },
+    { id: 'pr2', text: `There is a middle ground between full surveillance and total privacy, and that is where the Mitchell family should aim.\n\nWith Maya: tell her directly, "I respect your privacy. In return, I need you to be honest with me about the big stuff. If something scares you, confuses you, or makes you uncomfortable online — I need to know. Not because I will punish you, but because I love you and some things are too big to handle alone at 13."\n\nWith Ethan at 10: more oversight is appropriate at his age, but frame it as partnership. "I am going to check in on what you are doing online sometimes. Not to spy — because I want to understand your world and make sure you are okay."\n\nThe principle: as they earn trust, they earn privacy. Make that explicit. It gives both kids something to work toward, and it gives you a framework that is not all-or-nothing.` }
+  ],
+  'david-role': [
+    { id: 'dr1', text: `David's struggle is the transition from work mode to home mode. After making hundreds of decisions all day, coming home to more decisions feels impossible.\n\nGive him one specific thing tonight. "David, just sit with Ethan for ten minutes. That is it." No agenda. Just presence.\n\nAlso: when David walks in the door, before anything else, physical contact with each kid. A hand on the shoulder, a hug. Fifteen seconds. It resets the connection.\n\nOne card question David could ask Maya: "What is something you are really good at that most people do not know about?" She loves to be seen. That question from her dad will matter more than an hour of generic conversation.` },
+    { id: 'dr2', text: `Here is something Sarah can do that helps David: stop asking him to engage generally and start giving him specific missions.\n\nNot "be more involved tonight." Instead: "David, Maya has something she wants to tell you about practice. Can you ask her about it before dinner?"\n\nDavid is a management executive. He responds to clear tasks with clear objectives. Use that. Give him one assignment per evening. He will execute it well because that is how his brain works.\n\nAnd David — your kids do not need you to be energetic. They need you to be interested. Ask one question. Listen to the answer. That is enough on a hard day.` }
+  ],
+  'communication': [
+    { id: 'cm1', text: `When kids stop talking, the instinct is to push harder. That usually makes it worse — especially with Ethan.\n\nTry this: stop asking direct questions. Start sharing. Tell your kids something about your own day — something real. "I had a frustrating moment at work today. Someone said something that bothered me." Then stop. Do not ask them to share back. Just model it.\n\nMaya will engage because she is opinionated and cannot resist weighing in. Ethan will listen — and one day, he will share something small. Do not pounce on it. Just say "thank you for telling me that."\n\nAlso: text Ethan sometimes. A text that says "thinking about you, hope today was good" keeps the line open.\n\nFrom the card deck: "What is something you wish I asked you about more often?"` },
+    { id: 'cm2', text: `A technique that works well with families like the Mitchells: the car conversation.\n\nIn the car, you are side by side, not face to face. There is no eye contact pressure. And there is a natural end — when you arrive. This is perfect for Ethan, who shuts down under direct attention.\n\nNext time you are driving with one kid, ask something unexpected: "What is the most interesting thing you have learned recently that has nothing to do with school?" Then listen. No follow-up lecture. No teachable moment. Just listen.\n\nMaya will go deep — she has opinions on everything. Ethan may surprise you. Kids talk more when the setting feels casual. Use that.\n\nThe Make the Moments Matter deck was designed for exactly these moments. Keep a few cards in the glove box.` },
+    { id: 'cm3', text: `If the family has gone quiet and nobody is talking, here is a reset you can try this weekend.\n\nPick an activity that requires cooperation — not conversation. Cook a meal together. Build something. Play a board game. The talking happens naturally when the pressure to talk is removed.\n\nAssign roles: Maya is in charge of the main dish, Ethan handles dessert, David preps, Sarah coordinates. Everyone has a job. Nobody has to make small talk.\n\nWhat happens in the kitchen is what happens in relationships: you start working side by side and suddenly someone says something real. Maya complains about a friend. Ethan asks David a question he would never ask at the table. Connection sneaks in through the side door.` }
+  ],
+  'siblings': [
+    { id: 'si1', text: `Maya and Ethan are wired very differently. Maya is loud and takes up space — not because she is selfish, but because that is her personality. Ethan is quiet and retreats.\n\nCreate separate moments for each kid. Have David take Ethan to do something low-key — a drive, a walk, ice cream. Meanwhile, Sarah has a one-on-one with Maya.\n\nWhen they are together, the card deck helps — it gives everyone equal turns. Maya cannot dominate if the rule is everyone answers.\n\nIf they fight about devices, set the same rules for both. Maya respects fairness even if she argues. Different rules invite comparison — and Maya will call it out immediately.\n\nThe sibling dynamic mirrors the family dynamic. When David and Sarah communicate well, the kids tend to follow.` },
+    { id: 'si2', text: `Maya and Ethan need different things from their parents, and that can create resentment if it is not handled carefully.\n\nMaya needs engagement, challenge, and respect for her opinions. Ethan needs patience, low-pressure presence, and meeting him in his world.\n\nThe risk: Maya feels like Ethan gets babied, and Ethan feels like Maya gets all the attention. Both are partially right.\n\nAddress it directly: "Maya, I know it sometimes feels like we give Ethan more slack. He needs different things than you do — not more, not less, different. And you need things too. What do you need from us that you are not getting?"\n\nWith Ethan: "I know Maya is loud and you are not. That does not mean her voice matters more than yours in this family. What would help you feel more heard?"\n\nNaming the dynamic takes away its power.` }
+  ],
+  'community': [
+    { id: 'co1', text: `Start with one other family. One conversation with one other parent changes everything because now you are not alone.\n\nInvite two or three families over — not for a lecture, for dinner or coffee. Put one question on the table: "How much do you actually know about what your kids are doing online?" You will be surprised how quickly people open up.\n\nFrom there, it scales. Those three families invite three more. Someone brings it up at PTA. The book calls this the escalation: dinner table to community to PTA to City Hall to Congress. Old school. Neighbor to neighbor.\n\nThe card deck is perfect for these gatherings. Pull a card, everyone answers.\n\nDo not wait until you have a plan. Just start talking. Once you have five or six families committed, you have something real.` },
+    { id: 'co2', text: `You do not need to start a nonprofit or launch a campaign. You need a living room and three other parents.\n\nHere is the simplest version: host a "Family Digital Night" — no screens, just cards, a board game, and conversation. Invite two families who have kids around Maya and Ethan's ages. Let the kids hang out together without devices.\n\nWhat happens: the adults end up talking about the exact same struggles. And the kids see that other families are doing this too — it is not just their weird parents.\n\nThat is how movements start. Not with a megaphone. With a conversation over coffee.\n\nIf you want to go bigger, the "Ways to Start the Conversation" section on this site has talking points for PTA meetings, church groups, and community events. Pick one and try it.` }
+  ],
+  'school': [
+    { id: 'sc1', text: `Talk to Maya and Ethan's teachers — not to complain, but to connect. Ask: "Have you noticed any changes in my child's focus or behavior?" Teachers see things parents miss, and vice versa.\n\nAt the school level, push for a parent night on screens and social media. Not a lecture — a conversation among parents.\n\nFor Maya at 13, school is where social media plays out in real life. The group chats, the exclusion — it follows them into the hallway. Ask her: "Is there stuff happening online that follows you to school?"\n\nFor Ethan at 10, school may be where he feels most disconnected. If he is quiet at home and at school, he may be retreating further. Ask his teacher if he engages more when the pressure is low.` },
+    { id: 'sc2', text: `Schools are fighting this battle too, and most are losing. Teachers are dealing with kids who are distracted, anxious, and sleep-deprived from late-night scrolling.\n\nHere is what you can do: become the parent who brings the conversation to school. Not as a complaint — as an offer. Tell the principal: "I would like to help organize a parent discussion about kids and technology. I have some resources. Can we make it happen?"\n\nMost schools will say yes because they are desperate for parent engagement on this topic. You do not need to be an expert. You just need to be a parent who cares enough to show up.\n\nFor the Mitchells specifically: Maya's school life and online life are deeply intertwined. Understanding one helps you understand the other. And Ethan's teachers may have insights into how he connects with peers that could help you reach him at home.` }
+  ],
+  'general-advice': [
+    { id: 'ga1', text: `Tonight at dinner, put one conversation card on the table: "What is something that happened today that no one asked you about?"\n\nNo phones. No agenda. Everyone answers — including David.\n\nMaya will have a strong opinion. Ethan might surprise you with something quiet but real. David gets to show up without having to lead.\n\nThe habit of talking matters more than any single conversation. Start tonight. See what opens up. Then try again tomorrow.\n\nWhat specific situation is happening in your house right now? I can give you a step-by-step approach.` },
+    { id: 'ga2', text: `The most practical thing you can do this week: ask each family member to share one thing they saw online that stuck with them — good or bad. David shares too.\n\nMaya will jump in first. Ethan might need to text his answer. That is fine.\n\nThe goal is not becoming a tech expert. It is getting your family talking about what technology is doing in your lives, openly and without judgment.\n\nOnce a week. One conversation. That is how it starts. The families that talk about this raise kids who think critically. The families that avoid it leave that job to the algorithm.` },
+    { id: 'ga3', text: `You do not need to fix everything at once. You just need a starting point.\n\nNext time you are in the car with one of the kids, ask: "If you could change one thing about our family, what would it be?" Then just listen. Do not fix. Do not defend.\n\nMaya will be direct. Ethan may need time. Give him silence. That is not discomfort — that is processing.\n\nThe goal is showing your kids that their voice matters. Once they believe that, the harder conversations — about what they see online, who they are talking to — get easier.\n\nTell me what is happening at home and I will give you something specific to try.` },
+    { id: 'ga4', text: `Here is something the book talks about that applies to whatever you are facing: the Family GPT works best when you use it between conversations, not instead of them.\n\nBefore you sit down with Maya about something hard, think through what you want to say. Before you approach Ethan about something you noticed, plan your entry point.\n\nThe families that struggle most are the ones who wing it — who react in the moment instead of preparing. Preparation is not manipulation. It is respect. It is saying "this conversation matters enough that I thought about how to have it well."\n\nWhat are you navigating right now? I can help you think through the approach before you sit down with your family.` },
+    { id: 'ga5', text: `Here is something that might shift the dynamic in your house: designate one night a week as "Mitchell Family Night." Not a movie — an experience. Cook together. Play a game. Go for a walk.\n\nThe rule: no devices for anyone, including David's work phone. Make it sacred.\n\nMaya will resist at first. She is 13. That is her job. Keep doing it. By the third or fourth week, she will have a suggestion for what to do. That is the turning point — when she goes from resisting to participating.\n\nEthan might be quietly relieved. He may actually want to be pulled out of his screen world but not know how to ask. Family Night gives him permission.\n\nStart this weekend. What night works best?` }
+  ]
+};
+
+// Topic detection — maps keywords to topic keys with weighted scoring
+const topicDetectors = [
+  { topic: 'phone-dinner', keywords: ['phone', 'dinner', 'table', 'meal', 'eat', 'basket'], weight: 2 },
+  { topic: 'ethan-online', keywords: ['ethan', 'seeing online', 'son', 'boy', 'what he'], weight: 2 },
+  { topic: 'david-tired', keywords: ['tired', 'exhausted', 'after work', 'too tired', 'david', 'energy'], weight: 2 },
+  { topic: 'sarah-phone', keywords: ['found', 'concerning', 'saw on', 'discovered', 'maya\'s phone', 'caught'], weight: 2 },
+  { topic: 'social-media', keywords: ['social media', 'instagram', 'tiktok', 'snapchat', 'app', 'platform', 'feed', 'scroll', 'post'], weight: 1 },
+  { topic: 'bullying', keywords: ['bully', 'bullying', 'mean', 'cruel', 'harass', 'picked on', 'cyber'], weight: 2 },
+  { topic: 'screen-time', keywords: ['screen time', 'hours', 'limit', 'restrict', 'too much', 'addicted', 'addiction', 'how long'], weight: 1 },
+  { topic: 'conflict', keywords: ['fight', 'argue', 'argument', 'yell', 'angry', 'conflict', 'disagree', 'blew up', 'snapped'], weight: 1 },
+  { topic: 'sleep', keywords: ['sleep', 'bedtime', 'night', 'staying up', 'late', 'tired', 'midnight', 'bed'], weight: 1 },
+  { topic: 'privacy', keywords: ['privacy', 'check phone', 'monitor', 'spy', 'look at', 'track', 'snoop', 'search history'], weight: 1 },
+  { topic: 'david-role', keywords: ['husband', 'dad', 'father', 'absent', 'boss mode', 'not involved', 'never home'], weight: 1 },
+  { topic: 'communication', keywords: ['talk', 'communicate', 'silent', 'quiet', 'won\'t talk', 'open up', 'shut down', 'not talking'], weight: 1 },
+  { topic: 'siblings', keywords: ['sister', 'brother', 'sibling', 'maya and ethan', 'each other', 'fighting', 'jealous'], weight: 2 },
+  { topic: 'community', keywords: ['community', 'neighbors', 'other families', 'movement', 'organize', 'spread', 'involved', 'join', 'group'], weight: 1 },
+  { topic: 'school', keywords: ['school', 'teacher', 'classroom', 'education', 'homework', 'grades', 'principal'], weight: 1 }
+];
+
+// Map suggested button keys to topic keys for direct matching
+const suggestedTopicMap = {
+  'maya-dinner': 'phone-dinner',
+  'ethan-online': 'ethan-online',
+  'david-tired': 'david-tired',
+  'sarah-found': 'sarah-phone'
+};
+
+function detectTopic(message) {
+  const lower = message.toLowerCase().trim();
+  let bestTopic = null;
+  let bestScore = 0;
+
+  for (const detector of topicDetectors) {
+    let score = 0;
+    for (const kw of detector.keywords) {
+      if (lower.includes(kw)) score += detector.weight;
+    }
+    if (score > bestScore) {
+      bestScore = score;
+      bestTopic = detector.topic;
+    }
+  }
+  return bestScore > 0 ? bestTopic : null;
+}
+
+function getUnusedResponse(topic) {
+  const responses = topicResponses[topic];
+  if (!responses || responses.length === 0) return null;
+
+  // Find one that hasn't been used yet
+  const unused = responses.filter(r => !usedResponseIds.has(r.id));
+  if (unused.length > 0) {
+    const pick = unused[0];
+    usedResponseIds.add(pick.id);
+    return pick.text;
+  }
+
+  // All used — reset this topic and pick the first one again
+  responses.forEach(r => usedResponseIds.delete(r.id));
+  const pick = responses[0];
+  usedResponseIds.add(pick.id);
+  return pick.text;
+}
+
+function generateResponse(message) {
+  // Detect topic
+  const topic = detectTopic(message);
+
+  if (topic) {
+    const response = getUnusedResponse(topic);
+    if (response) return response;
+  }
+
+  // Fallback to general advice (also with variant rotation)
+  return getUnusedResponse('general-advice');
+}
+
+// ── FAMILY GPT CHAT ──
+async function sendChatMessage(message) {
+  if (!message.trim() || apiCallInProgress) return;
+
+  const messagesContainer = document.getElementById('chatMessages');
+  const chatInput = document.getElementById('chatInput');
+  const chatSendBtn = document.getElementById('chatSendBtn');
+  const chatSuggestions = document.getElementById('chatSuggestions');
+
+  if (chatHistory.length === 0) {
+    chatSuggestions.style.display = 'none';
+  }
+
+  const userMsg = document.createElement('div');
+  userMsg.className = 'chat-message user';
+  userMsg.innerHTML = '<div class="chat-avatar user">You</div><div class="chat-bubble">' + escapeHtml(message) + '</div>';
+  messagesContainer.appendChild(userMsg);
+
+  chatHistory.push({ role: 'user', content: message });
+  chatInput.value = '';
+  messagesContainer.scrollTop = messagesContainer.scrollHeight;
+
+  const typingMsg = document.createElement('div');
+  typingMsg.className = 'chat-message ai';
+  typingMsg.innerHTML = '<div class="chat-avatar ai">AI</div><div class="chat-typing"><span></span><span></span><span></span></div>';
+  messagesContainer.appendChild(typingMsg);
+  messagesContainer.scrollTop = messagesContainer.scrollHeight;
+
+  chatInput.disabled = true;
+  chatSendBtn.disabled = true;
+  apiCallInProgress = true;
+
+  // Short delay for natural feel (shorter when using live AI since API adds its own latency)
+  const delay = useBackendAI ? 300 : (1200 + Math.random() * 1500);
+
+  setTimeout(async () => {
+    try {
+      let aiMessage;
+
+      if (useBackendAI) {
+        // ── LIVE AI MODE (secure backend) ──
+        // API key is on the server — never exposed to the browser
+        const response = await fetch('/api/chat', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ messages: chatHistory })
+        });
+        if (!response.ok) {
+          const errData = await response.json().catch(() => ({}));
+          throw new Error(errData.error || 'Server error');
+        }
+        const data = await response.json();
+        aiMessage = data.response;
+      } else {
+        // ── DEMO MODE (built-in responses) ──
+        aiMessage = generateResponse(message);
+      }
+
+      chatHistory.push({ role: 'assistant', content: aiMessage });
+      typingMsg.remove();
+
+      const aiMsg = document.createElement('div');
+      aiMsg.className = 'chat-message ai';
+      aiMsg.innerHTML = '<div class="chat-avatar ai">AI</div><div class="chat-bubble">' + escapeHtml(aiMessage).replace(/\n/g, '<br>') + '</div>';
+      messagesContainer.appendChild(aiMsg);
+
+    } catch (error) {
+      typingMsg.remove();
+      console.warn('AI backend error, falling back to built-in:', error.message);
+      // Fall back to built-in responses on any error
+      const aiMessage = generateResponse(message);
+      chatHistory.push({ role: 'assistant', content: aiMessage });
+      const aiMsg = document.createElement('div');
+      aiMsg.className = 'chat-message ai';
+      aiMsg.innerHTML = '<div class="chat-avatar ai">AI</div><div class="chat-bubble">' + escapeHtml(aiMessage).replace(/\n/g, '<br>') + '</div>';
+      messagesContainer.appendChild(aiMsg);
+    } finally {
+      chatInput.disabled = false;
+      chatSendBtn.disabled = false;
+      apiCallInProgress = false;
+      messagesContainer.scrollTop = messagesContainer.scrollHeight;
+      chatInput.focus();
+    }
+  }, delay);
+}
+
+function escapeHtml(text) {
+  const map = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' };
+  return text.replace(/[&<>"']/g, m => map[m]);
+}
+
+document.getElementById('chatSendBtn').addEventListener('click', () => {
+  const message = document.getElementById('chatInput').value.trim();
+  sendChatMessage(message);
+});
+
+document.getElementById('chatInput').addEventListener('keypress', (e) => {
+  if (e.key === 'Enter') {
+    const message = document.getElementById('chatInput').value.trim();
+    sendChatMessage(message);
+  }
+});
+
+// Suggestion button click handlers (using data-msg to avoid apostrophe escaping issues)
+const suggestionMessages = {
+  'maya-dinner': "Maya won't put her phone down at dinner",
+  'ethan-online': "How do I talk to Ethan about what he's seeing online?",
+  'david-tired': "David is too tired to engage after work",
+  'sarah-found': "Sarah found something concerning on Maya's phone"
+};
+document.querySelectorAll('.chat-suggestion[data-msg]').forEach(btn => {
+  btn.addEventListener('click', function() {
+    const key = this.getAttribute('data-msg');
+    if (suggestionMessages[key]) {
+      sendChatMessage(suggestionMessages[key]);
+    }
+  });
+});
+
+// Smooth scroll
+document.querySelectorAll('nav a[href^="#"], a[href^="#"]').forEach(a => {
+  a.addEventListener('click', function(e) {
+    const target = document.querySelector(this.getAttribute('href'));
+    if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth' }); }
+  });
+});
+
+// ── ADMIN AUTHENTICATION ──
+let adminAuthenticated = false;
+let adminPassword = '';
+
+async function openAdminDashboard() {
+  if (adminAuthenticated) {
+    document.getElementById('adminSection').classList.toggle('show');
+    renderAdminTable();
+    return;
+  }
+
+  const pw = prompt('Enter admin password:');
+  if (!pw) return;
+
+  // Always validate against server
+  try {
+    const res = await fetch('/api/signups', {
+      headers: { 'X-Admin-Password': pw }
+    });
+    if (res.ok) {
+      adminAuthenticated = true;
+      adminPassword = pw;
+    } else {
+      alert('Incorrect password.');
+      return;
+    }
+  } catch (e) {
+    alert('Admin dashboard requires the server to be running. Start the server with: node server.js');
+    return;
+  }
+
+  document.getElementById('adminSection').classList.add('show');
+  renderAdminTable();
+  document.getElementById('adminSection').scrollIntoView({ behavior: 'smooth' });
+}
+
+function closeAdminDashboard() {
+  document.getElementById('adminSection').classList.remove('show');
+}
+
+// Render admin table on load if there are existing entries
+renderAdminTable();
+
+// ═══════════════════════════════════════════
+// SCROLL ANIMATIONS
+// ═══════════════════════════════════════════
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.section-inner, .mtmm-inner, .mtmm-header, .category-guide, .card-draw-area, .teaser-row, .mtmm-purchase-box, .testimonial-card, .faq-list, .pricing-options').forEach(function(el) {
+    el.classList.add('fade-up');
+  });
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+  document.querySelectorAll('.fade-up').forEach(function(el) { observer.observe(el); });
+});
+
+// ═══════════════════════════════════════════
+// STICKY CTA BAR
+// ═══════════════════════════════════════════
+window.addEventListener('scroll', function() {
+  var sticky = document.getElementById('stickyCta');
+  var signup = document.getElementById('signup');
+  var heroHeight = document.querySelector('.hero').offsetHeight;
+  var signupTop = signup.getBoundingClientRect().top;
+  if (window.scrollY > heroHeight && signupTop > window.innerHeight) {
+    sticky.classList.add('show');
+  } else {
+    sticky.classList.remove('show');
+  }
+});
+</script>
+</body>
+</html>
